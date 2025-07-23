@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing Spells</title>
+
+    <script src="./noobAI.js"></script>
+    <script src="./triggerCount.js"></script>
+
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <span class="title">Drawing Spells</span>
+        <div class="btns">
+            <div class="btn js-docOpen">
+                <img src="./imgs/file.svg" title="Docs" alt="Docs">
+            </div>
+            <a class="btn" href="https://github.com/hbl917070/DrawingSpells" target="_blank">
+                <img src="./imgs/github.svg" title="GitHub" alt="GitHub">
+            </a>
+            <!-- <div class="btn">
+                <img src="./imgs/globe.svg" title="Language" alt="Language">
+            </div> -->
+        </div>
+
+    </div>
+
+    <div class="doc js-doc">
+        <div class="close js-docClose">
+            <img src="./imgs/x.svg">
+        </div>
+
+        Drawing Spells 是一個收錄了大量動漫遊戲角色提示詞的網站，
+        <br>
+        <a href="https://civitai.com/models/833294" target="_blank">NoobAI-XL</a> 或 <a href="https://civitai.com/models/795765" target="_blank">Illustrious</a> 系列的模型，都非常適合用這些提示詞生成角色圖片。
+        <div style="height: 10px;"></div>
+        角色的提示詞來自於 NoobAI-XL 訓練時使用的<a href="https://huggingface.co/datasets/NebulaeWis/e621-2024-webp-4Mpixel" target="_blank">數據集</a>，並使用 V-Pred-1.0 模型生成預覽圖。
+        <br>
+        通常 AI 模型難以正確生成圖片數量過少的角色，因此這裡只列出圖片數量大於30張的角色。
+
+    </div>
+
+    <!-- 過濾條件 -->
+    <div class="search-box">
+        <div class="search-container">
+            <div class="search-top">
+                <div class="search-item">
+                    <div class="title">包含</div>
+                    <textarea class="text js-include" placeholder="ex: 1girl|1boy, red eyes" rows="3"></textarea>
+                </div>
+
+                <div style="width:10px;"></div>
+
+                <div class="search-item">
+                    <div class="title">不包含</div>
+                    <textarea class="text js-exclude" placeholder="ex: no humans" rows="3"></textarea>
+                </div>
+
+                <div style="width:10px;"></div>
+
+                <div class="search-item search-item__right">
+                    <button class="search-filter js-filter">查詢</button>
+                </div>
+            </div>
+
+            <!-- 進階設定  -->
+            <div class="search-bottom js-searchBottom" style="display: none;">
+
+                <div class="hr"></div>
+
+                <div class="search-item">
+                    <div class="title">排序</div>
+                    <select class="text js-sort">
+                        <option value="default">預設</option>
+                        <option value="count">圖片數量</option>
+                        <option value="random">隨機</option>
+                    </select>
+                </div>
+                <div class="search-item">
+                    <div class="title"> 排除圖片數量過少的角色 </div>
+                    <input class="text js-excludeCount" type="number">
+                </div>
+                <div class="search-item">
+                    <div class="title">每頁圖片數量</div>
+                    <select class="text js-pageSize">
+                        <option value="30">30</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                    </select>
+                </div>
+                <div class="search-item">
+                    <div class="title"> 複製時忽略提的示詞 </div>
+                    <textarea class="text text__full js-ignorePrompts" placeholder="逗號或換行分隔，例如：1girl, *eyes" rows="3"></textarea>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="more-options js-moreOptions">
+            進階設定
+        </div>
+    </div>
+
+
+    <!-- 換頁按鈕 -->
+    <div class="page-btns js-page-btns"></div>
+
+    <div class="imgviews js-imgviews">
+        <div class="imgview">
+            <div class="prompt">
+                Loading ...
+            </div>
+        </div>
+    </div>
+
+    <!-- 換頁按鈕 -->
+    <div class="page-btns js-page-btns"></div>
+
+</body>
+
+</html>
