@@ -108,7 +108,7 @@ class app {
                         const div = Lib.newDom(
                             `<div class="imgview">
                                 <div class="title" title="圖片數量">${data.count}</div>
-                                <img class="img" src="./NoobAI/${data.file}">
+                                <img class="img" src="./noobAI/${data.file}">
                                 <div class="btn-list">
                                     <div class="btn btn__copy1 js-copyName" title="複製角色名稱"></div>
                                     <div class="btn btn__copy2 js-copySeries" title="複製角色+作品名稱"></div>
@@ -320,7 +320,7 @@ class app {
                     if (!sortMap.has(series)) {
                         sortMap.set(series, 0);
                     }
-                    sortMap.set(series, sortMap.get(series) + data.count    );
+                    sortMap.set(series, sortMap.get(series) + data.count);
                 }
                 //console.log("作品數量統計：", sortMap);
 
