@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: "Noto Sans TC";
 }
 
 html {
@@ -8,23 +9,28 @@ html {
 
 body {
     margin: 0;
-    font-family: "Microsoft JhengHei";
     background: linear-gradient(rgb(225, 232, 236), rgb(248, 251, 252));
 }
 
 .header {
     display: flex;
-    padding: 15px 10px;
+    padding: 10px 10px;
     margin: auto;
     margin-bottom: 30px;
     max-width: 800px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
+    & .logo {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+
     & .title {
         flex: 1;
         display: flex;
         align-items: center;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: bold;
     }
 
@@ -35,55 +41,89 @@ body {
         margin-left: auto;
 
         & .btn {
-            width: 40px;
-            height: 40px;
+            width: 35px;
+            height: 35px;
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-left: auto;
             margin-left: 10px;
-
-            color: #fff;
             border-radius: 8px;
-            font-size: 16px;
             border: none;
             outline: none;
-
+            position: relative;
             &:hover {
                 background-color: rgb(255, 255, 255);
                 cursor: pointer;
             }
 
             & img {
-                width: 30px;
+                width: 25px;
                 opacity: 0.8;
             }
         }
     }
 }
 
+.menu-lang {
+    position: absolute;
+    top: 35px;
+    right: -5px;
+    width: 120px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+    padding: 10px 0;
+    position: 20;
+    z-index: 1000;
+
+    display: none;
+
+    & .item {
+        height: 35px;
+        padding: 0 10px;
+        display: flex;
+        align-items: center;
+        padding-left: 35px;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+        &.active {
+            background-image: url(./imgs/acceptMedium.svg);
+            background-size: 20px;
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+/* 說明視窗 */
 .doc {
-    padding: 40px;
-    font-size: 16px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 28px;
     margin: auto;
     max-width: 800px;
     margin-bottom: 30px;
-    position: relative;
 
+    & .doc-container {
+        padding: 35px;
+        font-size: 16px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 28px;
+        margin: 0 10px;
+        position: relative;
+    }
+
+    /* 右上角的關閉按鈕 */
     & .close {
         position: absolute;
-        top: -12px;
-        right: -12px;
+        top: 8px;
+        right: 8px;
         width: 35px;
         height: 35px;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: rgb(255, 255, 255);
-        border: 1px solid rgba(0, 0, 0, 0.1);
+
         border-radius: 12px;
 
         & img {
@@ -95,7 +135,8 @@ body {
 
         &:hover {
             cursor: pointer;
-            background-color: rgb(240, 240, 240);
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgba(0, 0, 0, 0.1);
         }
     }
 }
@@ -105,7 +146,7 @@ body {
     margin: auto;
 
     & .search-container {
-        margin: 0 20px;
+        margin: 0 10px;
         padding: 20px;
         padding-bottom: 10px;
         background-color: rgba(255, 255, 255, 1);
@@ -134,15 +175,17 @@ body {
         & .title {
             font-size: 16px;
             margin-left: 3px;
-            margin-bottom: 3px;
+            margin-bottom: 1px;
+            color: #333;
         }
 
         & .text {
             min-height: 40px;
-            min-width: 200px;
+            width: 200px;
+            max-width: 100%;
             margin-bottom: 10px;
             background-color: rgba(255, 255, 255, 1);
-            border: 1px solid rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(0, 0, 0, 0.2);
             border-radius: 10px;
             padding: 5px;
             box-sizing: border-box;
@@ -189,12 +232,24 @@ body {
     }
 }
 
+/* 寬度低於600時 */
+@media (max-width: 600px) {
+    .search-top {
+        display: block !important;
+
+        & .text {
+            width: 100% !important;
+        }
+    }
+}
+
 .hr {
     height: 1px;
     background-color: rgba(0, 0, 0, 0.1);
     margin: 10px 0;
 }
 
+/* 圖片區域 */
 .imgviews {
     margin: 10px;
     display: flex;
@@ -299,15 +354,17 @@ body {
     }
 }
 
+/* 頁碼的按鈕 */
 .page-btns {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 20px 0;
 
     & .page-btn {
         min-width: 40px;
         height: 40px;
-        margin: 0 2px;
+        margin: 2px;
         padding: 0 5px;
         background-color: rgba(255, 255, 255, 0.702);
         color: #000;
@@ -345,4 +402,11 @@ body {
         user-select: none;
         pointer-events: none;
     }
+}
+
+/* 覆寫 medium-zoom 套件的背景 */
+.medium-zoom-overlay {
+    background: rgba(255, 255, 255, 0.7) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }

@@ -1,4 +1,4 @@
-var _triggerCountModels = 
+var _imageCountList = 
 {
   "hatsune miku, vocaloid": 75493,
   "hakurei reimu, touhou": 27118,

@@ -1,49 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drawing Spells</title>
 
-    <script src="./noobAI.js"></script>
-    <script src="./triggerCount.js"></script>
+    <script src="./data/characterList.js"></script>
+    <script src="./data/imageCountList.js"></script>
 
+    <script src="./i18n.js"></script>
+    <script src="./lang.js"></script>
     <script src="./app.js"></script>
     <link rel="stylesheet" href="./app.css">
+
+    <!-- 放大圖片的套件 -->
+    <script src="./vender/medium-zoom.min.js"></script>
+
+    <!-- 瀏覽器圖示 -->
+    <link rel="Shortcut Icon" type="image/x-icon" href="./imgs/favicon.ico" />
+
+    <!-- 手機圖示 -->
+    <link href="./imgs/icon-192.png" rel="apple-touch-icon" sizes="192x192">
+
+    <!-- Google 字體 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC" rel="stylesheet">
+
+    <!-- 分享網頁時使用的資料 -->
+    <meta property="og:title" content="Drawing Spells">
+    <meta property="og:description" content="Drawing Spells 是一個二次元角色的提示詞查詢工具，這些提示詞可於 AI 繪圖模型使用。">
+    <meta property="og:image" content="./imgs/icon-192.png">
+    <meta property="og:url" content="https://hbl917070.github.io/DrawingSpells/">
+
+    <!-- 網頁描述 -->
+    <meta name="Description" content="Drawing Spells 是一個二次元角色的提示詞查詢工具，這些提示詞可於 AI 繪圖模型使用。">
+    <meta name="KeyWords" content="Drawing Spells, 提示詞, 二次元, AI, Prompt">
+
+    <meta name="author" content="hbl917070(深海異音)">
+    <meta name="copyright" content="hbl917070(深海異音)">
 </head>
 
 <body>
 
     <div class="header">
+        <img class="logo" src="./imgs/icon-192.png" alt="logo">
         <span class="title">Drawing Spells</span>
         <div class="btns">
             <div class="btn js-docOpen">
-                <img src="./imgs/file.svg" title="Docs" alt="Docs">
+                <img src="./imgs/file.svg" title="Documentation" alt="Documentation" i18n="documentation">
             </div>
             <a class="btn" href="https://github.com/hbl917070/DrawingSpells" target="_blank">
                 <img src="./imgs/github.svg" title="GitHub" alt="GitHub">
             </a>
-            <!-- <div class="btn">
+            <div class="btn js-langOpen">
                 <img src="./imgs/globe.svg" title="Language" alt="Language">
-            </div> -->
-        </div>
+                <div class="menu-lang js-langMenu">
+                    <div class="item active" data-lang="zh-TW"> 中文 </div>
+                    <div class="item" data-lang="en"> English </div>
+                </div>
+            </div>
 
+        </div>
     </div>
 
     <div class="doc js-doc">
-        <div class="close js-docClose">
-            <img src="./imgs/x.svg">
+        <div class="doc-container">
+            <div class="close js-docClose">
+                <img src="./imgs/x.svg">
+            </div>
+            <span i18n="docContent">
+                Drawing Spells 是一個二次元角色的提示詞查詢工具，這些提示詞可於 AI 繪圖模型使用，<br>
+                <a href="https://civitai.com/models/833294" target="_blank">NoobAI-XL</a> 或
+                <a href="https://civitai.com/models/795765" target="_blank">Illustrious</a>
+                系列的模型，都非常適合用來生成二次元角色。
+                <div style="height: 10px;"></div>
+
+                ※ 本站的資料來自 NoobAI-XL 訓練時使用的<a href="https://huggingface.co/datasets/NebulaeWis/e621-2024-webp-4Mpixel" target="_blank">數據集</a>，
+                通常 AI 模型難以正確生成過於冷門的角色，因此這裡只列出圖片數量大於30張的角色。
+            </span>
         </div>
-
-        Drawing Spells 是一個收錄了大量動漫遊戲角色提示詞的網站，
-        <br>
-        <a href="https://civitai.com/models/833294" target="_blank">NoobAI-XL</a> 或 <a href="https://civitai.com/models/795765" target="_blank">Illustrious</a> 系列的模型，都非常適合用這些提示詞生成角色圖片。
-        <div style="height: 10px;"></div>
-        角色的提示詞來自於 NoobAI-XL 訓練時使用的<a href="https://huggingface.co/datasets/NebulaeWis/e621-2024-webp-4Mpixel" target="_blank">數據集</a>，並使用 V-Pred-1.0 模型生成預覽圖。
-        <br>
-        通常 AI 模型難以正確生成圖片數量過少的角色，因此這裡只列出圖片數量大於30張的角色。
-
     </div>
 
     <!-- 過濾條件 -->
@@ -51,21 +86,21 @@
         <div class="search-container">
             <div class="search-top">
                 <div class="search-item">
-                    <div class="title">包含</div>
-                    <textarea class="text js-include" placeholder="ex: 1girl|1boy, red eyes" rows="3"></textarea>
+                    <div class="title" i18n="include">包含</div>
+                    <textarea class="text js-include" placeholder="ex. 1girl|1boy, red eyes" rows="3"></textarea>
                 </div>
 
                 <div style="width:10px;"></div>
 
                 <div class="search-item">
-                    <div class="title">不包含</div>
-                    <textarea class="text js-exclude" placeholder="ex: no humans" rows="3"></textarea>
+                    <div class="title" i18n="exclude">不包含</div>
+                    <textarea class="text js-exclude" placeholder="ex. no humans, short hair" rows="3"></textarea>
                 </div>
 
                 <div style="width:10px;"></div>
 
                 <div class="search-item search-item__right">
-                    <button class="search-filter js-filter">查詢</button>
+                    <button class="search-filter js-filter" i18n="search">查詢</button>
                 </div>
             </div>
 
@@ -75,19 +110,19 @@
                 <div class="hr"></div>
 
                 <div class="search-item">
-                    <div class="title">排序</div>
+                    <div class="title" i18n="sort">排序</div>
                     <select class="text js-sort">
-                        <option value="default">預設</option>
-                        <option value="count">圖片數量</option>
-                        <option value="random">隨機</option>
+                        <option value="default" i18n="default">預設</option>
+                        <option value="count" i18n="imageCount">圖片數量</option>
+                        <option value="random" i18n="random">隨機</option>
                     </select>
                 </div>
                 <div class="search-item">
-                    <div class="title"> 排除圖片數量過少的角色 </div>
+                    <div class="title" i18n="excludeCount">排除圖片數量過少的角色</div>
                     <input class="text js-excludeCount" type="number">
                 </div>
                 <div class="search-item">
-                    <div class="title">每頁圖片數量</div>
+                    <div class="title" i18n="pageSize">每頁圖片數量</div>
                     <select class="text js-pageSize">
                         <option value="30">30</option>
                         <option value="50">50</option>
@@ -95,14 +130,14 @@
                     </select>
                 </div>
                 <div class="search-item">
-                    <div class="title"> 複製時忽略提的示詞 </div>
-                    <textarea class="text text__full js-ignorePrompts" placeholder="逗號或換行分隔，例如：1girl, *eyes" rows="3"></textarea>
+                    <div class="title" i18n="ignorePrompts">複製時忽略提示詞</div>
+                    <textarea class="text text__full js-ignorePrompts" placeholder="ex. 1girl, *eyes" rows="3"></textarea>
                 </div>
             </div>
 
         </div>
 
-        <div class="more-options js-moreOptions">
+        <div class="more-options js-moreOptions" i18n="moreOptions">
             進階設定
         </div>
     </div>

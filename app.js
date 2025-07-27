@@ -6,6 +6,8 @@ class app {
     constructor() {
 
         const pageManager = new PageManager();
+        const i18n = new I18n();
+        i18n.setData(_lang);
         const divImgviews = document.querySelector(".js-imgviews");
         const textInclude = document.querySelector(".js-include");
         const textExclude = document.querySelector(".js-exclude");
@@ -19,16 +21,19 @@ class app {
         const divDoc = document.querySelector(".js-doc");
         const btnDocClose = document.querySelector(".js-docClose");
         const btnDocOpen = document.querySelector(".js-docOpen");
+        const btnLang = document.querySelector(".js-langOpen");
+        const divLangMenu = document.querySelector(".js-langMenu");
 
-        for (let i = 0; i < _promptModels.length; i++) {
-            const data = _promptModels[i];
+        // 初始化圖片的提示詞數據
+        for (let i = 0; i < _characterList.length; i++) {
+            const data = _characterList[i];
             const promptParts = data.prompt.split(",")
                 .map(item => item.trim())
                 .filter(item => item !== "");
             const name = promptParts[0];
             const series = promptParts.length > 1 ? promptParts[1] : "";
             const nameAndSeries = `${name}, ${series}`;
-            const count = _triggerCountModels[nameAndSeries.replace(/\\/g, "")] || 0;
+            const count = _imageCountList[nameAndSeries.replace(/\\/g, "")] || 0;
 
             data.promptParts = promptParts; // 分割後的提示詞
             data.name = name; // 角色名稱
@@ -42,6 +47,81 @@ class app {
 
         updateImgviews();
         initFromUrl();
+
+        // 語言選單
+        (() => {
+
+            /**
+             * 從瀏覽器取得使用者當前使用的語言
+             */
+            function getBrowserLang() {
+                let browserLang = navigator.language.toLowerCase();
+                if (browserLang == "zh" || browserLang.startsWith("zh-")) {
+                    return "zh-TW";
+                }
+                /*if (browserLang.indexOf("ja") === 0) { // 日本
+                    return "ja";
+                }
+                if (browserLang.indexOf("ko") === 0) { // 韓文
+                    return "ko";
+                }*/
+                /*if (browserLang == "en" || browserLang.indexOf("en-") === 0) {
+                    return "en";
+                }*/
+                return "en";
+            }
+
+            /**
+             * 更新語言
+             * @param {*} value 
+             */
+            function updateLang(value) {
+                i18n.setLang(value);
+                // console.log("當前語言：", i18n.getLang());
+
+                window.localStorage.setItem("lang", i18n.getLang());
+
+                // 更新語言選單顯示
+                arItem.forEach(element => {
+                    if (element.getAttribute("data-lang") === value) {
+                        element.classList.add("active");
+                    } else {
+                        element.classList.remove("active");
+                    }
+                });
+            }
+
+            let isShow = false;
+            let arItem = divLangMenu.querySelectorAll(".item");
+
+            // 初始化語言，如果沒有設定語言，則使用瀏覽器語言
+            let lang = window.localStorage.getItem("lang") || getBrowserLang();
+            updateLang(lang);
+
+            btnLang.addEventListener("click", () => {
+                if (divLangMenu.style.display === "none" || divLangMenu.style.display === "") {
+                    divLangMenu.style.display = "block";
+                    isShow = true;
+                }
+            });
+
+            window.addEventListener("pointerdown", (e) => {
+                if (isShow) {
+                    divLangMenu.style.display = "none";
+                    isShow = false;
+                }
+            }, false)
+
+            // 給每一個語言選單項目添加點擊事件
+            arItem.forEach(element => {
+                element.addEventListener("pointerdown", (e) => {
+                    let dataLang = element.getAttribute("data-lang");
+                    updateLang(dataLang);
+                });
+            });
+
+        })();
+
 
         // 說明區塊
         if (window.localStorage.getItem("docOpen") == "false") {
@@ -98,7 +178,11 @@ class app {
                 // 頁碼點擊事件
                 (startIndex, endIndex, currentPage) => {
 
-                    document.title = `Drawing Spells - ${pageManager.currentPage}`;
+                    // 更新 title
+                    if (pageManager.currentPage > 1)
+                        document.title = `Drawing Spells - ${pageManager.currentPage}`;
+                    else
+                        document.title = "Drawing Spells";
 
                     divImgviews.innerHTML = "";
 
@@ -107,12 +191,12 @@ class app {
 
                         const div = Lib.newDom(
                             `<div class="imgview">
-                                <div class="title" title="圖片數量">${data.count}</div>
-                                <img class="img" src="./noobAI/${data.file}">
+                                <div class="title" title="${i18n.t("imageCount")}" i18n="imageCount">${data.count}</div>
+                                <img class="img" src="./data/character/${data.file}" data-zoomable>
                                 <div class="btn-list">
-                                    <div class="btn btn__copy1 js-copyName" title="複製角色名稱"></div>
-                                    <div class="btn btn__copy2 js-copySeries" title="複製角色+作品名稱"></div>
-                                    <div class="btn btn__copy3 js-copyPrompt" title="複製提示詞"></div>
+                                    <div class="btn btn__copy1 js-copyName" title="${i18n.t("copyName")}" i18n="copyName"></div>
+                                    <div class="btn btn__copy2 js-copySeries" title="${i18n.t("copySeries")}" i18n="copySeries"></div>
+                                    <div class="btn btn__copy3 js-copyPrompt" title="${i18n.t("copyPrompt")}" i18n="copyPrompt"></div>
                                 </div>
                                 <div class="prompt">
                                     <span>${Lib.escape(data.prompt)}</span>
@@ -124,7 +208,8 @@ class app {
                         const btnCopySeries = div.querySelector(".js-copySeries");
                         const btnCopyPrompt = div.querySelector(".js-copyPrompt");
 
-                        function addBg(text) {
+                        // 產生一個跟提示詞一樣長度的背景，並在 300毫秒後淡出
+                        function newBg(text) {
                             const divBg = Lib.newDom(
                                 `<div class="bg">
                                     <span>${Lib.escape(text)}</span>
@@ -139,9 +224,9 @@ class app {
                             divPrompt.appendChild(divBg);
                         }
 
-
+                        // 點擊圖片時，將提示詞複製到剪貼簿
                         btnCopyName.addEventListener("click", () => {
-                            addBg(data.name);
+                            newBg(data.name);
                             navigator.clipboard.writeText(data.name)
                                 .then(() => {
                                 })
@@ -150,7 +235,7 @@ class app {
                                 });
                         });
                         btnCopySeries.addEventListener("click", () => {
-                            addBg(data.nameAndSeries);
+                            newBg(data.nameAndSeries);
                             navigator.clipboard.writeText(data.nameAndSeries)
                                 .then(() => {
                                 })
@@ -164,7 +249,6 @@ class app {
                             // 用「,」或「;」或換行分割
                             // 必須完全匹配提示詞，但不區分大小寫
                             // 支援使用「*」來匹配任意字串
-
                             const ignorePrompts = textIgnorePrompts.value
                                 .split(/[,;\n]/)
                                 .map(item => item.trim())
@@ -198,7 +282,7 @@ class app {
                                 }
                             }
 
-                            addBg(data.prompt);
+                            newBg(data.prompt);
                             navigator.clipboard.writeText(ar.join(", "))
                                 .then(() => {
                                 })
@@ -216,8 +300,7 @@ class app {
                     const domPageButton = document.querySelector(".js-page-btns");
                     domPageButton.scrollIntoView({ /*behavior: "smooth"*/ });
 
-                    // 將當前的設定記錄進網址
-                    //updateUrl();
+                    mediumZoom('[data-zoomable]')
                 },
                 // 更新網址事件
                 () => {
@@ -254,26 +337,21 @@ class app {
                 .split(/[,]|\n/)
                 .map(item => item.trim())
                 .filter(item => item !== "");
-            const processedExcludes = excludes.map(pattern => {
-                const subPatterns = pattern.split("|").map(p => p.trim()).filter(p => p !== "");
-                return subPatterns.map(subPattern => subPattern.replace(/[\W_]+/g, "").toLowerCase());
-            });
+
 
             // 過濾
-            for (const data of _promptModels) {
+            for (const data of _characterList) {
 
                 // 過濾圖片數量過少的角色
                 if (data.count < excludeCount) {
                     continue; // 跳過圖片數量過少的角色
                 }
 
+                // 「包含」條件
                 // 每一個提示詞逐一比對，不能跨詞，例如「red heir, red eyes」 不能用「heir red」來匹配
                 // 比較時忽略所有特殊符號與空格，並不區分大小寫，只要字串包含就行，例如「isokaze \(kancolle\)」可以用「Isokaze- _(Kancol」來匹配
                 // 支援使用「|」來分隔多個條件，例如「1girl|1boy」可以匹配「1girl」或「1boy」
-
-                // 必須滿足所有「包含」條件
                 if (processedIncludes.length > 0) {
-
                     const includeMatch = processedIncludes.every(cleanPatterns => {
                         // 檢查是否有任一子條件符合
                         return cleanPatterns.some(cleanPattern => {
@@ -287,15 +365,20 @@ class app {
                     }
                 }
 
-                // 必須滿足所有「不包含」條件
-                if (processedExcludes.length > 0) {
-                    const excludeMatch = processedExcludes.every(cleanPatterns => {
-                        return cleanPatterns.some(cleanPattern => {
-                            return data.cleanPromptParts.some(part => part.includes(cleanPattern));
-                        });
+                // 「不包含」條件
+                // 每一個提示詞逐一比對，不能跨詞
+                // 必須完全匹配，不區分大小寫，例如「red heir」不能用「red」來匹配
+                // 只要有任何一個提示詞符合，就跳過這個角色
+                if (excludes.length > 0) {
+                    const excludeMatch = excludes.some(excludePattern => {
+                        // 清理排除條件
+                        const cleanExcludePattern = excludePattern.replace(/[\W_]+/g, "").toLowerCase();
+                        // 檢查 cleanPromptParts 中是否有包含 cleanExcludePattern 的部分
+                        return data.cleanPromptParts.some(part => part === cleanExcludePattern);
                     });
+
                     if (excludeMatch) {
-                        continue;
+                        continue; // 不符合不包含條件，跳過
                     }
                 }
 
@@ -312,7 +395,7 @@ class app {
             // 預設排序
             else if (selectSort.value === "default") {
                 // 將 Prompt 用「,」分割後，第一個詞是角色名稱，第二個詞是作品
-                // 排序順位：作品的角色數量、作品名稱、角色名稱
+                // 排序順位：作品的所有圖片數量、作品名稱、角色名稱
                 let sortMap = new Map();
                 for (const data of datas) {
 
@@ -551,7 +634,7 @@ class PageManager {
 
                 // 如果不是第一頁，則顯示省略號
                 if (startPage > 2) {
-                    const btnEllipsis = Lib.newDom(`<div class="page-dot">···</div>`);
+                    const btnEllipsis = Lib.newDom(`<div class="page-dot">⋯</div>`);
                     domPageButtons.appendChild(btnEllipsis);
                 }
             }
@@ -572,7 +655,7 @@ class PageManager {
             if (endPage < this._totalPage) {
                 // 如果不是最後一頁，則顯示省略號
                 if (endPage < this._totalPage - 1) {
-                    const btnEllipsis = Lib.newDom(`<div class="page-dot">···</div>`);
+                    const btnEllipsis = Lib.newDom(`<div class="page-dot">⋯</div>`);
                     domPageButtons.appendChild(btnEllipsis);
                 }
 
