@@ -85,4 +85,17 @@ var _lang = {
         "zh-TW": "複製提示詞",
         "en": "Copy Prompt",
     },
+
+    footer: {
+        "zh-TW": `
+            本專案所展示之AI生成圖片及角色名稱，其著作權皆屬於各原創作者及公司所有<br>
+            本專案僅供技術展示及學術研究使用，無任何商業用途<br>
+            若有權利人認為本專案之內容有侵權疑慮，請聯絡我們，我們將儘速下架相關資料
+        `,
+        "en": `
+            The AI-generated images and character names displayed in this project are owned by their respective original creators and companies.<br>
+            This project is intended for technical demonstration and academic research purposes only, with no commercial use.<br>
+            If any rights holder believes that the content of this project infringes their rights, please contact us, and we will promptly remove the relevant materials.
+        `,
+    },
 }
