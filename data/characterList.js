@@ -29465,10 +29465,6 @@ var _characterList =
     "prompt": "kamimura akiko, sisters ~natsu no saigo no hi~, 1girl, mature female, shiny skin, blue eyes, blonde hair, long hair, large breasts, huge breasts, navel, sweat, collarbone"
   },
   {
-    "file": "860dc270fd.webp",
-    "prompt": "tail \\(honkai: star rail\\), honkai: star rail, 1girl, fox girl, fox ears, fox tail, fiery tail, green eyes, paw-shaped pupils, symbol-shaped pupils, green hair, long hair, yin yang hair ornament, ahoge, hair ornament, hat, white socks, long sleeves, bare shoulders, detached sleeves, yin yang, talisman"
-  },
-  {
     "file": "8612c64096.webp",
     "prompt": "centurii-chan, original, 1girl, red eyes, hair between eyes, blonde hair, short hair, medium hair, greco-roman clothes, armor, roman clothes, red cape"
   },
@@ -39555,10 +39551,6 @@ var _characterList =
   {
     "file": "b521f9367b.webp",
     "prompt": "ashley \\(warioware\\), warioware, 1girl, red eyes, black hair, long hair, very long hair, big hair, orange hairband, twintails, red dress, tiara, skull"
-  },
-  {
-    "file": "b5280d9fab.webp",
-    "prompt": "trotter \\(honkai: star rail\\), honkai: star rail, 1girl, blue eyes, hair between eyes, purple eyes, red hair, streaked hair, white hair, short hair, colored inner hair, grey hair, two-tone hair, hair ornament, large breasts, cleavage, thighs, thigh strap, black gloves, bare shoulders, detached sleeves, black belt"
   },
   {
     "file": "b52a16ce00.webp",
