@@ -85,10 +85,6 @@ var _characterList =
     "prompt": "ebenholz \\(arknights\\), arknights, 1boy, goat boy, goat horns, goat ears, purple eyes, hair between eyes, black hair, long hair, very long hair, ponytail, black jacket, black pants, collared shirt, long sleeves, epaulettes, white ascot"
   },
   {
-    "file": "0066d1b0aa.webp",
-    "prompt": "clodsire, pokemon, 1girl, red eyes, white pupils, green hair, long hair, ahoge, ponytail, collared shirt, black pants, black gloves, earrings, pokemon (creature), suspenders"
-  },
-  {
     "file": "006959d1ea.webp",
     "prompt": "higuchi kaede, nijisanji, 1girl, purple eyes, hair between eyes, mole under eye, grey hair, very long hair, long hair, ponytail, hair bow, hairclip, large breasts, school uniform, white bow, virtual youtuber"
   },
@@ -549,10 +545,6 @@ var _characterList =
     "prompt": "huyan zhuo \\(fate\\), fate/grand order, 1girl, hair between eyes, grey eyes, purple eyes, white hair, streaked hair, green hair, very long hair, grey hair, long hair, large breasts, thighs, grey bodysuit, high collar, hairpin, breastplate, gauntlets, pauldrons"
   },
   {
-    "file": "02bca40482.webp",
-    "prompt": "elly \\(tonari no kyuuketsuki-san\\), tonari no kyuuketsuki-san, 1girl, fang, purple eyes, blonde hair, short hair, hair bow, small breasts, navel, collarbone, purple bow, black choker"
-  },
-  {
     "file": "02c1288776.webp",
     "prompt": "eun soyeon \\(lustyfox\\), original, 1girl, fox girl, fox ears, fox tail, animal ear fluff, yellow eyes, mole under eye, grey hair, very long hair, long hair, parted bangs, large breasts, huge breasts, mole on breast, cleavage, thighs, navel, wet"
   },
@@ -897,10 +889,6 @@ var _characterList =
     "prompt": "strarf, busou shinki, 1girl, red eyes, blue hair, long hair, twintails, doll joints"
   },
   {
-    "file": "0427372c14.webp",
-    "prompt": "kirito, sword art online, 1boy, black eyes, hair between eyes, black hair"
-  },
-  {
     "file": "042d430fa8.webp",
     "prompt": "intruder \\(girls\u0027 frontline\\), girls\u0027 frontline, 1girl, blue eyes, black hair, short hair, large breasts, medium breasts, cleavage, black nails, nail polish"
   },
@@ -1195,10 +1183,6 @@ var _characterList =
   {
     "file": "0555a1708d.webp",
     "prompt": "byakko \\(kemono friends\\), kemono friends, 1girl, tiger girl, cat girl, heterochromia, tiger ears, tiger tail, extra ears, animal ear fluff, blue eyes, yellow eyes, hair between eyes, white hair, short hair, two-tone hair, grey hair, medium hair, pleated skirt, long sleeves"
-  },
-  {
-    "file": "05616aefeb.webp",
-    "prompt": "lilith \\(evangelion\\), neon genesis evangelion, 1girl, angel (evangelion), red eyes, hair between eyes, short hair, blue hair, medium breasts, lance of longinus (evangelion)"
   },
   {
     "file": "05695812ca.webp",
@@ -2473,10 +2457,6 @@ var _characterList =
     "prompt": "toudou shimako, maria-sama ga miteru, 1girl, blue eyes, long hair, brown hair"
   },
   {
-    "file": "0aeef1a249.webp",
-    "prompt": "hachiroku \\(maitetsu\\), maitetsu, 1girl, loli, red eyes, black hair, very long hair, hair rings, flat chest, navel, open jacket, peaked cap, half updo"
-  },
-  {
     "file": "0aef241530.webp",
     "prompt": "hatori chise, mahou tsukai no yome, 1girl, green eyes, hair between eyes, red hair, short hair"
   },
@@ -3277,10 +3257,6 @@ var _characterList =
     "prompt": "ohtsuki yui, idolmaster, 1girl, blue eyes, blonde hair, long hair, wavy hair, ponytail, large breasts, medium breasts, cleavage, collarbone, bare shoulders"
   },
   {
-    "file": "0ec80d49d0.webp",
-    "prompt": "xatu, pokemon, no humans, black eyes, green hair, short hair, pokemon (creature), bird"
-  },
-  {
     "file": "0ecd03ad5f.webp",
     "prompt": "selena: capriccio \\(punishing: gray raven\\), punishing: gray raven"
   },
@@ -3499,10 +3475,6 @@ var _characterList =
   {
     "file": "0fbfefb673.webp",
     "prompt": "orca \\(kemono friends\\), kemono friends, 1girl, cetacean tail, hair over eyes, hair over one eye, black hair, white hair, two-tone hair, short hair, medium hair, multicolored hair, parted bangs, long bangs, collarbone, frilled dress, long sleeves, head fins, dorsal fin, blowhole, dolphin girl, orca girl"
-  },
-  {
-    "file": "0fc43683ba.webp",
-    "prompt": "hypno, pokemon, animal ears, black eyes, sweat, pokemon (creature), hypnosis, yellow fur, pendulum"
   },
   {
     "file": "0fc5e68cbc.webp",
@@ -3771,10 +3743,6 @@ var _characterList =
   {
     "file": "112c71dced.webp",
     "prompt": "saya \\(casual) (blue archive\\), blue archive, 1girl, mouse girl, mouse ears, mouse tail, fang, ear tag, mouth mask, red eyes, grey hair, long hair, very long hair, white hair, small breasts, medium breasts, navel, purple jacket, open jacket, denim shorts, halo, long sleeves, mouse (animal), crop top, skateboard"
-  },
-  {
-    "file": "112defdc4d.webp",
-    "prompt": "homu \\(honkai impact\\), honkai \\(series\\), 1girl, hair between eyes, grey eyes, blue eyes, grey hair, long hair, white hair, bare shoulders, twin drills"
   },
   {
     "file": "113032b597.webp",
@@ -6065,10 +6033,6 @@ var _characterList =
     "prompt": "ceres fauna, hololive, 1girl, horns, yellow eyes, mole under eye, hair over one eye, green hair, long hair, braided bangs, hair flower, large breasts, cleavage, virtual youtuber, nail polish, antlers"
   },
   {
-    "file": "1b95fb9a83.webp",
-    "prompt": "beedrill, pokemon, no humans, red eyes, pokemon (creature), antennae, bee"
-  },
-  {
     "file": "1b9e1c176b.webp",
     "prompt": "harpy \\(puyopuyo\\), puyopuyo, 1girl, angel wings, angel, green eyes, pink hair, short hair, white dress, yellow wings, feathered wings"
   },
@@ -6115,10 +6079,6 @@ var _characterList =
   {
     "file": "1bdb059d56.webp",
     "prompt": "beanstalk \\(gift uncompleted) (arknights\\), arknights, 1girl, animal ears, hyena ears, animal ear fluff, tail, hyena tail, red eyes, hair between eyes, long hair, brown hair, green hairband, single braid, braid, hairclip, white sweater, off-shoulder sweater, green dress, long sleeves, bare shoulders, hyena girl, neck bell"
-  },
-  {
-    "file": "1bdd7d42a6.webp",
-    "prompt": "magnemite, pokemon, 1girl, sharp teeth, pink eyes, pink hair, bow-shaped hair, two-tone hair, split-color hair, low-tied long hair, blue hair, very long hair, character hair ornament, yellow jacket, oversized clothes, sleeves past fingers, very long sleeves, bare shoulders, long sleeves, pokemon (creature)"
   },
   {
     "file": "1be043b473.webp",
@@ -6255,10 +6215,6 @@ var _characterList =
   {
     "file": "1c662dfe01.webp",
     "prompt": "elio \\(pokemon\\), pokemon, 1boy, grey eyes, black hair, short hair, baseball cap, t-shirt, blue shirt, shota"
-  },
-  {
-    "file": "1c78830bc8.webp",
-    "prompt": "kujo jotaro, jojo no kimyou na bouken, 1boy, green eyes, blue eyes, black hair, hat, long coat, gakuran, chain"
   },
   {
     "file": "1c79154bc8.webp",
@@ -6623,10 +6579,6 @@ var _characterList =
   {
     "file": "1e03fbefb2.webp",
     "prompt": "gilgamesh \\(caster) (fate\\), fate \\(series\\), 1boy, red eyes, hair between eyes, short hair, blonde hair, arabian clothes, earrings"
-  },
-  {
-    "file": "1e09eb0792.webp",
-    "prompt": "snom, pokemon, no humans, black eyes, long hair, pokemon (creature)"
   },
   {
     "file": "1e100ef068.webp",
@@ -7171,10 +7123,6 @@ var _characterList =
   {
     "file": "2068260392.webp",
     "prompt": "sunohara ayaka, sunoharasou no kanrinin-san, 1girl, yellow eyes, brown eyes, hair between eyes, long hair, blonde hair, large breasts, huge breasts, ribbed sweater"
-  },
-  {
-    "file": "206a1b1687.webp",
-    "prompt": "magikarp, pokemon, no humans, 1girl, fox girl, fox ears, long hair, white hair, virtual youtuber, pokemon (creature), fish"
   },
   {
     "file": "2070dd2053.webp",
@@ -8197,10 +8145,6 @@ var _characterList =
     "prompt": "tamade chiyu, bang dream!, 1girl, animal ear headphones, cat ear headphones, blue eyes, hair between eyes, v-shaped eyebrows, red hair, very long hair, long hair, ahoge, white shirt, long sleeves"
   },
   {
-    "file": "24fd18fd79.webp",
-    "prompt": "tapu lele, pokemon, no humans, black skin, blue eyes, pink eyes, multicolored eyes, green eyes, pink hair, long hair, hat, pokemon (creature)"
-  },
-  {
     "file": "2502ae30b5.webp",
     "prompt": "maribel hearn, touhou, 1girl, purple eyes, blonde hair, short hair, long hair, mob cap, purple dress"
   },
@@ -8361,10 +8305,6 @@ var _characterList =
     "prompt": "nightingale \\(arknights\\), arknights, 1girl, demon horns, horns, blue eyes, blonde hair, very long hair, blunt bangs, white dress, white headwear, bare shoulders, long sleeves"
   },
   {
-    "file": "25b062b230.webp",
-    "prompt": "unown, pokemon, no humans, black eyes, pokemon (creature), one-eyed"
-  },
-  {
     "file": "25b8cc57b5.webp",
     "prompt": "chloe lemaire, girlfriend \\(kari\\), 1girl, blue eyes, blonde hair, long hair"
   },
@@ -8459,10 +8399,6 @@ var _characterList =
   {
     "file": "260c3b4027.webp",
     "prompt": "sonozaki shion, higurashi no naku koro ni, 1girl, green eyes, green hair, long hair, half updo"
-  },
-  {
-    "file": "260f2d9892.webp",
-    "prompt": "kshatriya, gundam, no humans, 1girl, long hair, mecha musume, mecha"
   },
   {
     "file": "2613a32435.webp",
@@ -8675,10 +8611,6 @@ var _characterList =
   {
     "file": "271cf1619a.webp",
     "prompt": "blaze fielding, streets of rage, 1girl, mole under mouth, brown eyes, brown hair, long hair, large breasts, cleavage, navel, fingerless gloves, red skirt, black gloves, black jacket, hoop earrings, lipstick, miniskirt, midriff"
-  },
-  {
-    "file": "271e2c927b.webp",
-    "prompt": "joseph joestar \\(young\\), jojo no kimyou na bouken, 1boy, blue eyes, green eyes, brown hair, black hair, fingerless gloves, striped clothes, striped scarf, crop top, midriff"
   },
   {
     "file": "271ed8108a.webp",
@@ -8907,10 +8839,6 @@ var _characterList =
   {
     "file": "28462fd3f1.webp",
     "prompt": "owada mondo, danganronpa \\(series\\), 1boy, purple eyes, brown hair, black hair, two-tone hair, short hair, medium hair, long hair, collarbone, pompadour, muscular male, bara"
-  },
-  {
-    "file": "284c482e00.webp",
-    "prompt": "rathalos, monster hunter \\(series\\), no humans, 1girl, monster, sharp teeth, blue eyes, wings, wyvern, claws, dragon"
   },
   {
     "file": "28551a40c3.webp",
@@ -10001,10 +9929,6 @@ var _characterList =
     "prompt": "agent 8 \\(splatoon\\), splatoon \\(series\\), 1girl, dark-skinned female, grey eyes, tentacle hair, medium hair, red hair, long hair, pink hair, sleeveless bodysuit, white bodysuit, squidbeak splatoon, suction cups"
   },
   {
-    "file": "2d36396ac6.webp",
-    "prompt": "grookey, pokemon, no humans, black eyes, pokemon (creature), monkey"
-  },
-  {
     "file": "2d371f6ae5.webp",
     "prompt": "shinjou akane, gridman universe, 1girl, red eyes, short hair, pink hair, purple hair, light purple hair, large breasts, school uniform, purple jacket, white shirt, collared shirt, black skirt, off shoulder, long sleeves"
   },
@@ -10669,10 +10593,6 @@ var _characterList =
     "prompt": "blu pyro \\(tf2\\), team fortress 2, 1girl, blue eyes, blue hair, long hair, short hair, ponytail, large breasts, thigh boots, black gloves, blue bodysuit, black footwear, gas mask, latex bodysuit, zipper"
   },
   {
-    "file": "3026642b00.webp",
-    "prompt": "baphomet \\(monster girl encyclopedia\\), monster girl encyclopedia, 1girl, monster girl, demon girl, tail, animal ears, goat ears, goat horns, horns, very long hair, long hair, brown hair, small breasts, flat chest, navel, hooves, animal hands, claws"
-  },
-  {
     "file": "30298a06e0.webp",
     "prompt": "robin \\(batrobin k\\), dc comics, 1girl, fang, blue eyes, short hair, brown hair, black hair, small breasts, sweat, domino mask"
   },
@@ -10971,10 +10891,6 @@ var _characterList =
   {
     "file": "319a18019f.webp",
     "prompt": "massachusetts \\(kancolle\\), kantai collection, 1girl, red eyes, long hair, red hair, streaked hair, blonde hair, large breasts, white shirt, sleeveless shirt, blue jacket, black necktie, headgear"
-  },
-  {
-    "file": "319cd5c31f.webp",
-    "prompt": "hijikata-san \\(m.m\\), original, no humans, green eyes, long hair, blonde hair, ponytail, penguin, animal"
   },
   {
     "file": "319df6a097.webp",
@@ -12349,10 +12265,6 @@ var _characterList =
     "prompt": "princess 2 \\(sekaiju\\), sekaiju no meikyuu"
   },
   {
-    "file": "385db7ff4f.webp",
-    "prompt": "can \\(honkai impact\\), honkai \\(series\\), 1girl, cat girl, heterochromia, cat ears, cat tail, animal ear fluff, blue eyes, green eyes, hair between eyes, brown hair, medium hair, braid, medium breasts, black bikini, black gloves, bare shoulders, cat, animal, headband"
-  },
-  {
     "file": "38648e0595.webp",
     "prompt": "greninja, pokemon, long tongue, red eyes, white pupils, pokemon (creature), furry"
   },
@@ -13553,10 +13465,6 @@ var _characterList =
     "prompt": "kageyama torako, hyakko, 1girl, blue eyes, blonde hair, long hair, orange hair, ponytail, school uniform, necktie"
   },
   {
-    "file": "3db59ac86a.webp",
-    "prompt": "spiritomb, pokemon, no humans, green eyes, pokemon (creature)"
-  },
-  {
     "file": "3db7877e7e.webp",
     "prompt": "yamabuki inori, precure, 1girl, brown eyes, yellow eyes, short hair, blonde hair, brown hair, heart hair ornament, orange choker, earrings, magical girl, one side up"
   },
@@ -14045,10 +13953,6 @@ var _characterList =
     "prompt": "natsuiro matsuri \\(1st costume\\), hololive, 1girl, hair between eyes, blue eyes, green eyes, brown hair, medium hair, cat hair ornament, side ponytail, ahoge, hair ribbon, small breasts, navel, collarbone, orange jacket, white skirt, pleated skirt, off-shoulder jacket, bare shoulders, green ribbon, black ribbon, short sleeves, virtual youtuber, midriff, black camisole, crop top"
   },
   {
-    "file": "4049cf8362.webp",
-    "prompt": "hellhound \\(monster girl encyclopedia\\), monster girl encyclopedia, 1girl, monster girl, black skin, grey skin, dog ears, dog tail, animal ear fluff, wolf ears, red eyes, flaming eyes, hair between eyes, slit pupils, black hair, long hair, large breasts, navel, black sclera, animal hands, claws, black fur, fur"
-  },
-  {
     "file": "404c20d2d0.webp",
     "prompt": "amon \\(lord of the mysteries\\), lord of the mysteries, 1boy, black eyes, black hair, short hair, black robe, white shirt, crow, monocle"
   },
@@ -14411,10 +14315,6 @@ var _characterList =
   {
     "file": "41b4736182.webp",
     "prompt": "bakura ryou, yu-gi-oh!, 1boy, hair between eyes, white hair, long hair, grey hair, striped shirt, striped clothes, grey pants"
-  },
-  {
-    "file": "41b9587f3d.webp",
-    "prompt": "popplio, pokemon, no humans, black eyes, blue eyes, pokemon (creature)"
   },
   {
     "file": "41b9f641d4.webp",
@@ -15031,10 +14931,6 @@ var _characterList =
   {
     "file": "44710d77d6.webp",
     "prompt": "saionji hiyoko, danganronpa \\(series\\), 1girl, orange eyes, blonde hair, long hair, cat hair ornament, twintails, hair bow, orange kimono, long sleeves, wide sleeves, obi"
-  },
-  {
-    "file": "447cccb3b1.webp",
-    "prompt": "homei \\(honkai impact\\), honkai \\(series\\), 1girl, hair between eyes, blue eyes, long hair, white hair, side ponytail, bare shoulders, doll"
   },
   {
     "file": "447d1ca450.webp",
@@ -19433,10 +19329,6 @@ var _characterList =
     "prompt": "noumi \\(kancolle\\), kantai collection, 1girl, purple eyes, green hair, long hair, low ponytail, serafuku, pleated skirt, red skirt, white gloves, black pantyhose, white shirt, sailor hat, white headwear, sailor shirt, blue sailor collar"
   },
   {
-    "file": "584f9270f0.webp",
-    "prompt": "001 \\(darling in the franxx\\), darling in the franxx, 1girl, blue skin, single horn, blue horns, tail, blue eyes, very long hair, white hair, blunt bangs, small breasts, navel, tentacles"
-  },
-  {
     "file": "5853300b67.webp",
     "prompt": "kohagura ellen, toji no miko, 1girl, blue eyes, hair between eyes, blonde hair, long hair, black hairband, ahoge, large breasts, school uniform, osafune girls academy school uniform"
   },
@@ -19519,10 +19411,6 @@ var _characterList =
   {
     "file": "58ab062be5.webp",
     "prompt": "makigumo \\(kancolle\\), kantai collection, 1girl, yellow eyes, glasses, pink hair, long hair, ahoge, twintails, double bun, school uniform, white shirt, long sleeves, sleeves past fingers"
-  },
-  {
-    "file": "58ac4c0024.webp",
-    "prompt": "eva 00, neon genesis evangelion, 1girl, red eyes, hair between eyes, blue hair, short hair, medium breasts, plugsuit, pilot suit, white bodysuit, evangelion (mecha), one-eyed, mecha, interface headset"
   },
   {
     "file": "58b6d32976.webp",
@@ -21417,10 +21305,6 @@ var _characterList =
     "prompt": "ol-chan \\(ol mahonanoka\\), original, 1girl, office lady, flying sweatdrops, brown eyes, yellow eyes, long hair, brown hair, swept bangs, large breasts, pencil skirt, brown skirt, high-waist skirt, turtleneck sweater, long sleeves, earrings, id card, lanyard"
   },
   {
-    "file": "6187c7bd29.webp",
-    "prompt": "crobat, pokemon, no humans, teeth, red eyes, yellow eyes, bat wings, pokemon (creature), yellow sclera, bat (animal)"
-  },
-  {
     "file": "619560c9b1.webp",
     "prompt": "tanemura koyori, watashi ni tenshi ga maiorita!, 1girl, fang, purple eyes, very long hair, pink hair, red hair, x hair ornament, twintails, school uniform, white shirt, long sleeves"
   },
@@ -21535,10 +21419,6 @@ var _characterList =
   {
     "file": "6225f52b5b.webp",
     "prompt": "miyako \\(hidamari sketch\\), hidamari sketch, 1girl, yellow eyes, blonde hair, long hair"
-  },
-  {
-    "file": "622ab82cea.webp",
-    "prompt": "nergigante, monster hunter \\(series\\), no humans, 1girl, monster girl, monster, sharp teeth, dragon horns, dragon tail, spiked tail, yellow eyes, slit pupils, long hair, large breasts, spiked wings, dragon wings, wings, claws, scales, dragon girl, spikes"
   },
   {
     "file": "622e93b8bc.webp",
@@ -24677,10 +24557,6 @@ var _characterList =
     "prompt": "hadou nejire, boku no hero academia, 1girl, hair horns, blue eyes, very long hair, blue hair, light blue hair, large breasts, superhero costume, twin drills"
   },
   {
-    "file": "705407d91e.webp",
-    "prompt": "nitocris \\(fate\\), fate \\(series\\), 1girl, dark-skinned female, jackal ears, purple eyes, purple hair, very long hair, sidelocks, hairband, medium breasts, large breasts, navel, hoop earrings, facial mark, facepaint"
-  },
-  {
     "file": "7058723390.webp",
     "prompt": "medusa \\(saber) (fate\\), fate/grand order, 1girl, purple eyes, pink-tinted eyewear, round eyewear, glasses, very long hair, purple hair, pink hair, twintails, sidelocks, parted bangs, large breasts, sunglasses, hat, black jacket, black dress, black headwear, long sleeves, fur trim, black hat"
   },
@@ -25785,10 +25661,6 @@ var _characterList =
     "prompt": "nanna \\(fire emblem\\), fire emblem, 1girl, green eyes, blonde hair, short hair, wing hair ornament, hair ornament, cape, white armor, breastplate"
   },
   {
-    "file": "757c19896a.webp",
-    "prompt": "felyne, monster hunter \\(series\\), 1girl, blue eyes, long hair, short hair, cat"
-  },
-  {
     "file": "7586212897.webp",
     "prompt": "grass wonder \\(umamusume\\), umamusume, 1girl, horse girl, horse ears, horse tail, blue eyes, brown hair, long hair, long sleeves"
   },
@@ -26273,10 +26145,6 @@ var _characterList =
     "prompt": "otogibara era, nijisanji, 1girl, blue eyes, hair between eyes, orange hair, very long hair, long hair, braid, hair flower, medium breasts, virtual youtuber"
   },
   {
-    "file": "77767fb84c.webp",
-    "prompt": "gridman \\(ssss\\), gridman universe, no humans, blue eyes, yellow eyes, long hair, black hair, school uniform, armor, mecha"
-  },
-  {
     "file": "7780a52f14.webp",
     "prompt": "hoshikawa mafuyu, blend s, 1girl, purple eyes, hair between eyes, brown hair, short hair, hair ribbon, stile uniform, white gloves, black ribbon, waitress"
   },
@@ -26389,10 +26257,6 @@ var _characterList =
     "prompt": "dabi \\(boku no hero academia\\), boku no hero academia, 1boy, ear piercing, blue eyes, short hair, spiked hair, black hair, white hair, messy hair, burn scar, multiple scars, scar on face, scar on neck, scar on hand, white shirt, black jacket, stitches, multiple piercings"
   },
   {
-    "file": "77e95924a4.webp",
-    "prompt": "oshawott, pokemon, no humans, blue eyes, freckles, pokemon (creature)"
-  },
-  {
     "file": "77eb030cc3.webp",
     "prompt": "sakimiya iruka, dolphin wave, 1girl, green eyes, hair between eyes, red hair, medium hair, dolphin hair ornament, hair intakes, hair scrunchie, hairclip, large breasts, huge breasts, cleavage, navel, groin, sweat, collarbone, red bikini, multi-strapped bikini bottom, layered bikini, white gloves, black bikini, fingerless gloves, bare shoulders, halterneck, one side up, green scrunchie, stomach, bare arms"
   },
@@ -26419,10 +26283,6 @@ var _characterList =
   {
     "file": "780602ed48.webp",
     "prompt": "paradise \\(swd3e2\\), pixiv fantasia, 1girl, red eyes, black hair, short hair, long hair, black thighhighs"
-  },
-  {
-    "file": "780f9b82f6.webp",
-    "prompt": "morpeko \\(full\\), pokemon, 1girl, green eyes, aqua eyes, black hair, medium hair, asymmetrical bangs, twintails, short twintails, hair ribbon, small breasts, collarbone, red ribbon, long sleeves, black choker, nail polish, black nails, earrings, pokemon (creature)"
   },
   {
     "file": "78118a748d.webp",
@@ -27091,10 +26951,6 @@ var _characterList =
   {
     "file": "7ae8035ada.webp",
     "prompt": "yagami hikari, digimon, 1girl, brown eyes, short hair, brown hair, hairclip"
-  },
-  {
-    "file": "7aeb5c26a4.webp",
-    "prompt": "togekiss, pokemon, no humans, black eyes, white hair, long hair, pokemon (creature)"
   },
   {
     "file": "7aeb8e524c.webp",
@@ -28053,10 +27909,6 @@ var _characterList =
     "prompt": "jamie siu, street fighter, 1boy, dark-skinned male, ear piercing, brown eyes, black hair, long hair, very long hair, single braid, long bangs, long braid, chinese clothes, yellow jacket, abs, eyeliner, pectorals"
   },
   {
-    "file": "7f4c29e86c.webp",
-    "prompt": "arbok, pokemon, no humans, 1girl, fangs, pokemon (creature), snake"
-  },
-  {
     "file": "7f56cc851c.webp",
     "prompt": "exusiai \\(arknights\\), arknights, 1girl, red eyes, orange eyes, hair over one eye, red hair, short hair, white jacket, black gloves, fingerless gloves, halo, detached wings, energy wings"
   },
@@ -28367,10 +28219,6 @@ var _characterList =
   {
     "file": "809a8a821a.webp",
     "prompt": "akuma homura, mahou shoujo madoka magica, 1girl, purple eyes, black hair, long hair, hair bow, elbow gloves, black gloves, thighhighs, black dress, argyle clothes, bare shoulders, choker, feathered wings, black wings"
-  },
-  {
-    "file": "80a33d6078.webp",
-    "prompt": "jessie \\(pokemon\\), pokemon, 1girl, blue eyes, long hair, red hair, hair slicked back, large breasts, navel, team rocket uniform, elbow gloves, black gloves, earrings"
   },
   {
     "file": "80a48a2013.webp",
@@ -33473,10 +33321,6 @@ var _characterList =
     "prompt": "shy \\(character\\), shy \\(series\\), 1girl, hair between eyes, red eyes, eye mask, short hair, grey hair, white hair, small breasts, hooded leotard, elbow gloves, white leotard, white gloves, bare shoulders, black belt"
   },
   {
-    "file": "97b4d6c084.webp",
-    "prompt": "joseph joestar, jojo no kimyou na bouken, 1boy, blue eyes, green eyes, brown hair, fingerless gloves, crop top, midriff"
-  },
-  {
     "file": "97b986e044.webp",
     "prompt": "charlotte wiltshire, hello charlotte, 1girl, yellow eyes, white hair, very long hair, long hair, wavy hair, white shirt, long sleeves, yellow ribbon"
   },
@@ -33717,16 +33561,8 @@ var _characterList =
     "prompt": "melusine \\(fate\\), fate \\(series\\), 1girl, yellow eyes, brown eyes, white hair, long hair, sidelocks, small breasts, thighs, bare shoulders"
   },
   {
-    "file": "98b3a0dcc9.webp",
-    "prompt": "luxray, pokemon, no humans, furry female, animal ears, tail, yellow eyes, black hair, short hair, pokemon (creature), red sclera, black fur, blue fur"
-  },
-  {
     "file": "98b445d7f2.webp",
     "prompt": "rayquaza, pokemon, no humans, yellow eyes, pokemon (creature), claws, black sclera, eastern dragon, mega pokemon"
-  },
-  {
-    "file": "98b4ff0317.webp",
-    "prompt": "southern ocean war princess, kantai collection, 1girl, pale skin, white skin, red eyes, glowing eyes, hair over one eye, white hair, very long hair, long hair, twintails, medium breasts, large breasts, navel, topless, turret"
   },
   {
     "file": "98c002316a.webp",
@@ -34137,10 +33973,6 @@ var _characterList =
     "prompt": "kouzuki yuniko, accel world, 1girl, red eyes, red hair, short hair, short twintails, twintails, flat chest, freckles"
   },
   {
-    "file": "9ab0b8e240.webp",
-    "prompt": "wishiwashi, pokemon, no humans, 1girl, blue eyes, short hair, blue hair, pokemon (creature), fish"
-  },
-  {
     "file": "9ab0ea8e86.webp",
     "prompt": "kagetsu \\(fire emblem\\), fire emblem, 1boy, yellow eyes, blue hair, medium hair, dark blue hair, black hair, folded ponytail, ponytail, hairclip, japanese clothes, bare shoulders, detached sleeves, katana"
   },
@@ -34243,10 +34075,6 @@ var _characterList =
   {
     "file": "9b2495ca54.webp",
     "prompt": "scolipede, pokemon, no humans, horns, yellow eyes, pokemon (creature)"
-  },
-  {
-    "file": "9b25aea7dd.webp",
-    "prompt": "stella vermillion, rakudai kishi no cavalry, 1girl, red eyes, hair between eyes, long hair, red hair, two side up, twintails, hair ribbon, large breasts, navel, black thighhighs"
   },
   {
     "file": "9b2baf56ac.webp",
@@ -34387,10 +34215,6 @@ var _characterList =
   {
     "file": "9bdd3dc9d2.webp",
     "prompt": "august von parseval \\(the conquered unhulde) (azur lane\\), azur lane, 1girl, maid, maid headdress, mechanical horns, curled horns, purple eyes, hair over one eye, one eye covered, purple hair, very long hair, large breasts, cleavage, thighs, white thighhighs, white dress, two-tone dress, black dress, white apron, bare shoulders"
-  },
-  {
-    "file": "9bdec7907a.webp",
-    "prompt": "ping hai \\(summer vacation) (azur lane\\), azur lane, 1girl, red eyes, brown hair, very long hair, twintails, ahoge, blunt bangs, sidelocks, hair ornament, small breasts, navel, collarbone, red bikini, visor cap, yellow jacket, side-tie bikini bottom, fur-trimmed jacket, bare shoulders, off shoulder, halterneck, long sleeves, black choker, swim ring, panda, innertube"
   },
   {
     "file": "9be2908473.webp",
@@ -34607,10 +34431,6 @@ var _characterList =
   {
     "file": "9cde7e4aef.webp",
     "prompt": "eiscue, pokemon, no humans, pokemon (creature), penguin"
-  },
-  {
-    "file": "9cdeaddb35.webp",
-    "prompt": "t-800, terminator \\(series\\), 1girl, long hair, brown hair, sunglasses, virtual youtuber"
   },
   {
     "file": "9ce3c6a707.webp",
@@ -35597,10 +35417,6 @@ var _characterList =
     "prompt": "no.21: feral scent \\(punishing: gray raven\\), punishing: gray raven"
   },
   {
-    "file": "a1b558395e.webp",
-    "prompt": "jingwei \\(bird\\), honkai \\(series\\), 1girl, hair between eyes, red eyes, blue eyes, grey hair, long hair, black hair, streaked hair, white hair, very long hair, ponytail, bare shoulders"
-  },
-  {
     "file": "a1b91c7dc2.webp",
     "prompt": "matoi ryuuko, kill la kill, 1girl, blue eyes, black hair, short hair, red hair, two-tone hair, streaked hair, medium breasts, navel, suspenders, scissor blade (kill la kill)"
   },
@@ -36257,10 +36073,6 @@ var _characterList =
     "prompt": "rory mercury, gate - jieitai ka no chi nite kaku tatakaeri, 1girl, red eyes, black hair, long hair, very long hair, blunt bangs, small breasts, black thighhighs, hime cut, gothic lolita, garter straps"
   },
   {
-    "file": "a4b35c7193.webp",
-    "prompt": "peony \\(pokemon\\), pokemon, 1boy, dark-skinned male, mature male, beard, green eyes, short hair, black hair, leg hair, chest hair, navel hair, body hair, thick thighs, navel, expedition uniform, black headwear, orange jacket, helmet, fur-trimmed jacket, bara, muscular male, abs, large pectorals, stomach"
-  },
-  {
     "file": "a4b4f0ca07.webp",
     "prompt": "yatogami fuma, holostars, 1boy, hair between eyes, yellow eyes, blonde hair, black hair, two-tone hair, short hair, streaked hair, colored inner hair, crossed bangs, black gloves, grey hoodie, black jacket, hood down, long sleeves, virtual youtuber, earrings, drawstring"
   },
@@ -36647,10 +36459,6 @@ var _characterList =
   {
     "file": "a642202db7.webp",
     "prompt": "honebami toushirou, touken ranbu, 1boy, purple eyes, white hair, military uniform, necktie"
-  },
-  {
-    "file": "a645c1ff52.webp",
-    "prompt": "sachiel \\(evangelion\\), neon genesis evangelion, 1girl, angel (evangelion), red eyes, blue eyes, long hair, medium breasts, plugsuit, interface headset"
   },
   {
     "file": "a6460f416f.webp",
@@ -37547,10 +37355,6 @@ var _characterList =
   {
     "file": "aa4b596782.webp",
     "prompt": "robert e. o. speedwagon, jojo no kimyou na bouken, 1boy, blonde hair, long hair, scar, suit, formal"
-  },
-  {
-    "file": "aa4cc67107.webp",
-    "prompt": "penpen, neon genesis evangelion, 1girl, blue eyes, red eyes, long hair, blue hair, medium breasts, penguin"
   },
   {
     "file": "aa509327d7.webp",
@@ -38733,10 +38537,6 @@ var _characterList =
     "prompt": "bronya zaychik \\(silverwing: n-ex\\), honkai \\(series\\), 1girl, grey eyes, hair between eyes, grey hair, long hair, drill hair, very long hair, large breasts, cleavage, black gloves, white dress, bare shoulders, twin drills"
   },
   {
-    "file": "afc4a40bd9.webp",
-    "prompt": "clefairy, pokemon, no humans, 1girl, green eyes, blonde hair, long hair, short hair, pokemon (creature)"
-  },
-  {
     "file": "afc4a61693.webp",
     "prompt": "komodo dragon \\(kemono friends\\), kemono friends, 1girl, lizard tail, blue eyes, blue hair, long hair, grey hair, multicolored hair, white hair, two-tone hair, sidelocks, long sleeves, reptile girl, lipstick, scales"
   },
@@ -38827,10 +38627,6 @@ var _characterList =
   {
     "file": "b0331a5ad2.webp",
     "prompt": "ichinose uruha \\(6th costume\\), vspo!, 1girl, demon horns, demon girl, demon wings, demon tail, blue horns, blue tail, gradient horns, multicolored horns, purple eyes, hair between eyes, black hair, blue hair, streaked hair, long hair, medium hair, two side up, school uniform, white shirt, collared shirt, grey jacket, pleated skirt, black skirt, dress shirt, open jacket, long sleeves, grey necktie, black collar, print necktie, wing collar, black choker, virtual youtuber, mini wings, blue wings, gradient wings, earrings, blazer, miniskirt"
-  },
-  {
-    "file": "b0337319e3.webp",
-    "prompt": "sam \\(honkai: star rail\\), honkai: star rail, 1girl, hair between eyes, blue eyes, long hair, grey hair, black hairband, hair intakes, armor"
   },
   {
     "file": "b034a10a6c.webp",
@@ -39057,10 +38853,6 @@ var _characterList =
     "prompt": "gokou ruri, ore no imouto ga konna ni kawaii wake ga nai, 1girl, cat ears, red eyes, purple eyes, mole under eye, long hair, black hair, hime cut"
   },
   {
-    "file": "b13f198724.webp",
-    "prompt": "nekomata okayu, hololive, 1girl, cat girl, cat ears, animal ear fluff, cat tail, purple eyes, hair between eyes, purple hair, short hair, medium hair, ahoge, large breasts, cleavage, navel, long sleeves, virtual youtuber"
-  },
-  {
     "file": "b14039bd58.webp",
     "prompt": "tashkent \\(kancolle\\), kantai collection, 1girl, brown eyes, hair between eyes, brown hair, long hair, low twintails, hair bow, hairclip, medium breasts, fingerless gloves, black skirt, white jacket, white scarf, black headwear, black gloves, black bow, blue shawl, papakha, star (symbol)"
   },
@@ -39165,10 +38957,6 @@ var _characterList =
     "prompt": "tifa lockhart \\(shining spirit\\), final fantasy, 1girl, red eyes, brown eyes, black hair, long hair, official alternate hairstyle, brown hair, sidelocks, hair flower, large breasts, cleavage, thighs, navel, collarbone, frilled bikini, white bikini, bikini skirt, bare shoulders, beach"
   },
   {
-    "file": "b1d22ab6a6.webp",
-    "prompt": "xenomorph, alien \\(series\\), no humans, 1girl, monster, tail, alien"
-  },
-  {
     "file": "b1d306f68d.webp",
     "prompt": "liv: empyrea \\(punishing: gray raven\\), punishing: gray raven"
   },
@@ -39255,10 +39043,6 @@ var _characterList =
   {
     "file": "b2796a80f6.webp",
     "prompt": "fox mccloud, star fox, 1boy, furry male, fox boy, fox ears, fox tail, green eyes, gloves"
-  },
-  {
-    "file": "b27b27f245.webp",
-    "prompt": "misaka imouto 10032\u0027s cat, toaru majutsu no index, 1girl, brown eyes, brown hair, medium hair, short hair, tokiwadai school uniform, summer uniform, black cat, head-mounted display"
   },
   {
     "file": "b285700ae3.webp",
@@ -39565,10 +39349,6 @@ var _characterList =
     "prompt": "soma peries, gundam, 1girl, yellow eyes, long hair, white hair, grey hair"
   },
   {
-    "file": "b42509bf28.webp",
-    "prompt": "polteageist, pokemon, no humans, yellow eyes, purple hair, pokemon (creature), teapot"
-  },
-  {
     "file": "b4306524ff.webp",
     "prompt": "shinano toushirou, touken ranbu, 1boy, green eyes, blue eyes, red hair, thigh holster, military uniform, shorts, black gloves, kneehighs, necktie, sode"
   },
@@ -39807,10 +39587,6 @@ var _characterList =
   {
     "file": "b5308c19fe.webp",
     "prompt": "fuwawa abyssgard \\(new year\\), hololive, 1girl, dog girl, skin fang, dog ears, animal ear fluff, dog tail, pink eyes, blue hair, long hair, blonde hair, streaked hair, official alternate hairstyle, ponytail, hair flower, large breasts, sideboob, blue kimono, sideless kimono, floral print kimono, sleeveless kimono, blue belt, black collar, virtual youtuber, obi, black sash"
-  },
-  {
-    "file": "b5344b67d0.webp",
-    "prompt": "ralts, pokemon, no humans, white skin, red eyes, hair over eyes, green hair, short hair, blunt bangs, pokemon (creature), bowl cut"
   },
   {
     "file": "b53637a5f3.webp",
@@ -41691,10 +41467,6 @@ var _characterList =
   {
     "file": "be0c2be2b3.webp",
     "prompt": "ike eveland \\(1st costume\\), nijisanji, 1boy, hair between eyes, yellow eyes, green eyes, eyewear strap, glasses, short hair, blue hair, brown hair, multicolored hair, gradient hair, blue capelet, white capelet, black shirt, white jacket, fishnet gloves, blue scarf, white pants, long sleeves, turtleneck, virtual youtuber, earrings"
-  },
-  {
-    "file": "be0e3197c9.webp",
-    "prompt": "pyukumuku, pokemon, no humans, 1girl, pink eyes, pokemon (creature)"
   },
   {
     "file": "be117f64e2.webp",
@@ -43649,10 +43421,6 @@ var _characterList =
     "prompt": "sherlock shellingford, tantei opera milky holmes, 1girl, blue eyes, pink hair, long hair, twintails, hair rings"
   },
   {
-    "file": "c6d8484383.webp",
-    "prompt": "lahmu \\(fate\\), fate \\(series\\), 1girl, monster, teeth, purple eyes, red eyes, hair between eyes, long hair, very long hair, purple hair, large breasts, thighs, navel, sweat, restrained"
-  },
-  {
     "file": "c6da535b92.webp",
     "prompt": "nina einstein, code geass, 1girl, purple eyes, glasses, black hair, green hair, long hair, twin braids, ashford academy school uniform"
   },
@@ -44309,10 +44077,6 @@ var _characterList =
     "prompt": "gotland andra \\(kancolle\\), kantai collection, 1girl, blue eyes, hair between eyes, mole under eye, blue hair, long hair, single hair bun, military uniform, collared shirt, white gloves, half gloves, blue skirt, black necktie, long sleeves"
   },
   {
-    "file": "c9fb3aec33.webp",
-    "prompt": "acguy, gundam, no humans, 1girl, blue eyes, mecha"
-  },
-  {
     "file": "c9fc5f4505.webp",
     "prompt": "highmore \\(arknights\\), arknights, 1girl, pointy ears, blue eyes, purple eyes, hair between eyes, black hair, very long hair, long hair, purple hair, white dress, black dress, white thighhighs, bare shoulders, long sleeves"
   },
@@ -44483,10 +44247,6 @@ var _characterList =
   {
     "file": "cac1b94c87.webp",
     "prompt": "yan vismok, library of ruina, 1boy, streaked hair, white hair, very long hair, black hair, side ponytail, ahoge, black jacket, white cape, black gloves, long sleeves, gold trim, earpiece"
-  },
-  {
-    "file": "cac59d1eef.webp",
-    "prompt": "rajang, monster hunter \\(series\\), no humans, 1girl, monster, monster girl, horns, tail, pointy ears, sharp teeth, red eyes, hair between eyes, blonde hair, long hair, medium breasts, large breasts"
   },
   {
     "file": "cac7f4523b.webp",
@@ -45315,10 +45075,6 @@ var _characterList =
   {
     "file": "ceefeb7145.webp",
     "prompt": "konori mii, toaru majutsu no index, 1girl, blue eyes, black eyes, glasses, black hair, short hair, large breasts"
-  },
-  {
-    "file": "cef9dac3dc.webp",
-    "prompt": "malenia goddess of rot, elden ring, 1girl, floating hair, red hair, very long hair, breasts, prosthetic leg, navel, scar, completely nude, armor, wings, prosthetic arm, amputee, butterfly, single mechanical arm"
   },
   {
     "file": "cefb8164f1.webp",
@@ -46173,10 +45929,6 @@ var _characterList =
     "prompt": "esdeath, akame ga kill!, 1girl, blue eyes, hair between eyes, blue hair, very long hair, long hair, large breasts, cleavage, thigh boots, military uniform, peaked cap"
   },
   {
-    "file": "d2f946fce1.webp",
-    "prompt": "audino, pokemon, no humans, furry female, animal ears, blue eyes, pokemon (creature), two-tone fur, body fur, pink fur, yellow fur"
-  },
-  {
     "file": "d2fc5a12cb.webp",
     "prompt": "female chief \\(path to nowhere\\), path to nowhere, 1girl, grey eyes, long hair, black hair, collared shirt, black shirt, earrings"
   },
@@ -46329,10 +46081,6 @@ var _characterList =
     "prompt": "trainer \\(idolmaster\\), idolmaster, 1girl, brown eyes, black eyes, black hair, long hair, ponytail, hairclip"
   },
   {
-    "file": "d3af0ab884.webp",
-    "prompt": "nargacuga, monster hunter \\(series\\), no humans, 1girl, monster, tail, red eyes, yellow eyes, glowing eyes, black hair, claws"
-  },
-  {
     "file": "d3afafe55a.webp",
     "prompt": "hoshimiya ichigo, aikatsu! \\(series\\), 1girl, red eyes, blonde hair, long hair, red hairband, hair bow, hair ribbon, red bow"
   },
@@ -46383,10 +46131,6 @@ var _characterList =
   {
     "file": "d3dd94e256.webp",
     "prompt": "princess peach \\(wedding\\), mario \\(series\\), 1girl, lips, pink lips, blue eyes, blonde hair, long hair, ponytail, large breasts, medium breasts, cleavage, wedding dress, white gloves, elbow gloves, bridal veil, white dress, strapless dress, bare shoulders, white choker, earrings, sphere earrings, bride, lipstick, tiara, crown"
-  },
-  {
-    "file": "d3e6a9e2c1.webp",
-    "prompt": "pom-pom \\(honkai: star rail\\), honkai \\(series\\), 1girl, blue eyes, hair between eyes, pink eyes, two-tone eyes, pink hair, medium hair, long hair, medium breasts, white shirt, long sleeves"
   },
   {
     "file": "d3ecd2d966.webp",
@@ -47041,10 +46785,6 @@ var _characterList =
     "prompt": "kobayakawa rinko, love plus, 1girl, brown eyes, short hair, black hair, serafuku"
   },
   {
-    "file": "d68acf6952.webp",
-    "prompt": "grim aloe, quiz magic academy the world evolve, 1girl, demon horns, demon girl, demon wings, demon tail, red horns, red tail, fang, red eyes, hair between eyes, white hair, very long hair, long hair, twintails, sidelocks, small breasts, navel, black thighhighs, red wings, low wings"
-  },
-  {
     "file": "d68d711eeb.webp",
     "prompt": "citrinne \\(fire emblem\\), fire emblem, 1girl, red eyes, blonde hair, short hair, feather hair ornament, wing hair ornament, medium breasts, brown dress, bare shoulders, gold choker, hoop earrings, gold trim"
   },
@@ -47319,10 +47059,6 @@ var _characterList =
   {
     "file": "d7c1733406.webp",
     "prompt": "winry rockbell, fullmetal alchemist, 1girl, blue eyes, blonde hair, long hair, ponytail, medium breasts, earrings"
-  },
-  {
-    "file": "d7c56ad33a.webp",
-    "prompt": "type 94 shiranui, muv-luv, no humans, pilot suit, fortified suit, tactical surface fighter"
   },
   {
     "file": "d7ce44603b.webp",
@@ -47717,14 +47453,6 @@ var _characterList =
     "prompt": "oogami marina, bakusou kyoudai let\u0027s \u0026 go!!, 1girl, blue eyes, red hair, long hair, brown hair, twintails, large breasts, medium breasts, navel, short shorts, bracelet, necklace, tank top"
   },
   {
-    "file": "d9a5152a60.webp",
-    "prompt": "light dragon \\(zelda\\), the legend of zelda, 1girl, pointy ears, dragon horns, dragon tail, green eyes, blue eyes, blonde hair, short hair, crown braid, strapless dress, bare shoulders, earrings, dragon girl"
-  },
-  {
-    "file": "d9a70f99ad.webp",
-    "prompt": "lancelot \\(code geass\\), code geass, no humans, green eyes"
-  },
-  {
     "file": "d9b3197dc1.webp",
     "prompt": "avery \\(pokemon\\), pokemon, 1boy, floating object, blue eyes, eyelashes, round eyewear, glasses, blonde hair, long hair, top hat, black headwear, white gloves, poke ball (basic), black ascot"
   },
@@ -47923,10 +47651,6 @@ var _characterList =
   {
     "file": "da86b16161.webp",
     "prompt": "tsuzaki aoba, jinki, 1girl, blue eyes, purple eyes, long hair, black hair"
-  },
-  {
-    "file": "da8a973e59.webp",
-    "prompt": "azumarill, pokemon, no humans, 1girl, rabbit ears, blue eyes, blue hair, pokemon (creature)"
   },
   {
     "file": "da8ad366ac.webp",
@@ -48679,10 +48403,6 @@ var _characterList =
   {
     "file": "de7b0c9fcf.webp",
     "prompt": "artoria caster \\(swimsuit) (first ascension) (fate\\), fate \\(series\\), 1girl, green eyes, blonde hair, long hair, twintails, medium breasts, small breasts, thighs, navel, white bikini, baseball cap, white jacket, shrug (clothing), white headwear, cropped jacket, black pants, long sleeves, single pantsleg, white hat"
-  },
-  {
-    "file": "de7de56e2c.webp",
-    "prompt": "moonlight flower, ragnarok online, 1girl, fox girl, fox ears, fox tail, yellow tail, red eyes, blonde hair, short hair, small breasts, animal feet, navel, bottomless, fox hat, animal hands, bell"
   },
   {
     "file": "de7ea20b59.webp",
@@ -50077,10 +49797,6 @@ var _characterList =
     "prompt": "daida, ousama ranking, 1boy, blue eyes, black eyes, short hair, blonde hair, long sleeves, child, prince, crown"
   },
   {
-    "file": "e469c4b254.webp",
-    "prompt": "yunli \\(honkai: star rail\\), honkai \\(series\\), 1girl, hair between eyes, yellow eyes, orange eyes, long hair, grey hair, low twintails, hairclip, chinese clothes, detached sleeves, bare shoulders, short sleeves, detached collar, headpiece, stomach"
-  },
-  {
     "file": "e46b3f79ce.webp",
     "prompt": "anna \\(sennen sensou aigis\\), sennen sensou aigis, 1girl, red eyes, white hair, long hair, hairband, large breasts, medium breasts"
   },
@@ -50127,10 +49843,6 @@ var _characterList =
   {
     "file": "e4ab144678.webp",
     "prompt": "dick grayson, dc comics, 1boy, blue eyes, black hair, short hair, two-tone bodysuit, domino mask, black bodysuit, blue bodysuit, superhero costume, muscular male, large pectorals, bara, abs"
-  },
-  {
-    "file": "e4ae572128.webp",
-    "prompt": "deviljho, monster hunter \\(series\\), no humans, 1girl, monster, sharp teeth, tail, red eyes, green hair, navel, claws, dinosaur, spikes"
   },
   {
     "file": "e4b6f5b97b.webp",
@@ -50483,10 +50195,6 @@ var _characterList =
   {
     "file": "e645921be4.webp",
     "prompt": "sekishiro mico, nanashi inc., 1girl, demon horns, demon girl, demon tail, brown horns, curled horns, pointy ears, blue eyes, hair between eyes, eyepatch, green hair, short hair, medium bangs, large breasts, medium breasts, long sleeves, virtual youtuber"
-  },
-  {
-    "file": "e647e5b216.webp",
-    "prompt": "edogawa conan, meitantei conan, 1boy, blue eyes, hair between eyes, glasses, brown hair, short hair, white shirt, long sleeves, red bowtie, child"
   },
   {
     "file": "e64d3aebe1.webp",
@@ -51327,10 +51035,6 @@ var _characterList =
   {
     "file": "ea36429700.webp",
     "prompt": "yowane haku, vocaloid, 1girl, red eyes, white hair, very long hair, long hair, grey hair, ahoge, ponytail, hair bow, large breasts, cleavage, detached sleeves, midriff"
-  },
-  {
-    "file": "ea42b8786f.webp",
-    "prompt": "fatalis, monster hunter \\(series\\), no humans, 1girl, monster, monster girl, dragon horns, dragon tail, horns, sharp teeth, long hair, dragon wings, wings, claws, western dragon, scales, dragon girl"
   },
   {
     "file": "ea4550d7fb.webp",
@@ -52513,10 +52217,6 @@ var _characterList =
     "prompt": "izumi sagiri, eromanga sensei, 1girl, blue eyes, grey hair, long hair, low-tied long hair, hair bow, small breasts, pink bow"
   },
   {
-    "file": "efab776f4d.webp",
-    "prompt": "chloe von einzbern, fate \\(series\\), 1girl, dark-skinned female, loli, orange eyes, hair between eyes, yellow eyes, long hair, pink hair, small breasts, thighs, navel, stomach tattoo, one side up"
-  },
-  {
     "file": "efad914157.webp",
     "prompt": "mikogami nagisa, anyamal tantei kirumin zoo, 1girl, dog ears, purple eyes, long hair, brown hair, animal hat, dress, animal hands"
   },
@@ -52937,10 +52637,6 @@ var _characterList =
     "prompt": "katsuragi keima, kami nomi zo shiru sekai, 1boy, brown eyes, glasses, brown hair, long hair, school uniform, choker"
   },
   {
-    "file": "f1644c279d.webp",
-    "prompt": "kuon \\(hasumi (hasubatake39)\\), original, 1girl, cat girl, cat ears, animal ear fluff, cat tail, fang, red eyes, pink eyes, hair over one eye, short hair, grey hair, white hair, cat hair ornament, large breasts, medium breasts, navel, white shirt, long sleeves, black collar, off shoulder, nail polish, neck bell, jingle bell"
-  },
-  {
     "file": "f1686eab2f.webp",
     "prompt": "negev \\(little drifter) (girls\u0027 frontline\\), girls\u0027 frontline, 1girl, hair between eyes, red eyes, pink hair, long hair, braid, side braid, hair bow, hair ribbon, hairclip, white thighhighs, red bow, long sleeves, red ribbon, one side up, star of david"
   },
@@ -53019,10 +52715,6 @@ var _characterList =
   {
     "file": "f1ce0c4d3f.webp",
     "prompt": "da qiao, shin sangoku musou, 1girl, brown eyes, long hair, brown hair, black hair, twintails"
-  },
-  {
-    "file": "f1d22eabd6.webp",
-    "prompt": "lewisia aquablue, bombergirl, 1girl, demon tail, pointy ears, fangs, hair between eyes, yellow eyes, brown eyes, heart-shaped pupils, blue hair, long hair, very long hair, twintails, small breasts, navel, pubic tattoo, heart tattoo, sweat, bare shoulders, blue nails, twin drills, crown"
   },
   {
     "file": "f1dbec4bae.webp",
@@ -53439,10 +53131,6 @@ var _characterList =
   {
     "file": "f395679c7c.webp",
     "prompt": "maribel \\(dq7\\), dragon quest, 1girl, green eyes, blue eyes, long hair, curly hair, red hair, orange hair, breasts, dress, hood"
-  },
-  {
-    "file": "f395e601a6.webp",
-    "prompt": "lich \\(monster girl encyclopedia\\), monster girl encyclopedia, 1girl, pale skin, grey skin, purple eyes, hair between eyes, grey hair, short hair, long hair, white hair, medium breasts, large breasts, navel, tattoo, cloak"
   },
   {
     "file": "f39e488da4.webp",
@@ -53881,10 +53569,6 @@ var _characterList =
     "prompt": "varshahn, final fantasy, 1boy, dragon horns, curled horns, red eyes, hair between eyes, short hair, green hair, black hair, swept bangs, white shirt, sleeveless shirt, collared shirt, fingerless gloves, detached sleeves, shoulder sash, au ra, scales, dragon boy, sash"
   },
   {
-    "file": "f5f15da628.webp",
-    "prompt": "kaneshiro matoi, original, 1boy, shiny skin, pointy ears, hair between eyes, blue eyes, eyelashes, pink hair, very long hair, twintails, sidelocks, two side up, hair bow, hairclip, navel, red bow, long sleeves"
-  },
-  {
     "file": "f5f42a6ef3.webp",
     "prompt": "kurobe natsumi \\(shiromanta\\), senpai ga uzai kouhai no hanashi, 1girl, dark-skinned female, yellow eyes, hair between eyes, slit pupils, black hair, short hair, large breasts, earrings"
   },
@@ -54143,10 +53827,6 @@ var _characterList =
   {
     "file": "f6f29542c3.webp",
     "prompt": "nonaka yuki, shinmai maou no testament, 1girl, yellow eyes, blue hair, short hair, ahoge, side braid, braid, hairband, large breasts, serafuku"
-  },
-  {
-    "file": "f6f496fefa.webp",
-    "prompt": "luvdisc, pokemon, 1girl, blue eyes, brown hair, pokemon (creature)"
   },
   {
     "file": "f6fb12f895.webp",
@@ -54663,10 +54343,6 @@ var _characterList =
   {
     "file": "f9690a3b9a.webp",
     "prompt": "amane kanata \\(new year\\), hololive, 1girl, angel wings, hamster ears, animal ears, purple eyes, blue eyes, hair over one eye, grey hair, blue hair, official alternate hairstyle, colored inner hair, short hair, single hair intake, streaked hair, asymmetrical hair, pink hair, single hair bun, x hair ornament, asymmetrical bangs, single side bun, hair flower, hairclip, blue kimono, white kimono, white thighhighs, detached sleeves, wide sleeves, virtual youtuber, feathered wings, hamster girl, obi"
-  },
-  {
-    "file": "f96afdf922.webp",
-    "prompt": "ekubo \\(mob psycho 100\\), mob psycho 100, 1boy, black eyes, short hair, black hair, blunt bangs, long sleeves, bowl cut, spirit"
   },
   {
     "file": "f96f23166c.webp",
@@ -55349,10 +55025,6 @@ var _characterList =
     "prompt": "yoshinon, date a live, 1girl, rabbit ears, blue eyes, hair between eyes, eyepatch, blue hair, long hair, hand puppet"
   },
   {
-    "file": "fca36d02a3.webp",
-    "prompt": "kukui \\(pokemon\\), pokemon, 1boy, dark-skinned male, black hair, short hair, single hair bun, nipples, navel, baseball cap, sunglasses, lab coat, white headwear, topless male, abs, muscular male, bara, goatee, large pectorals"
-  },
-  {
     "file": "fca526ce12.webp",
     "prompt": "lucia \\(punishing: gray raven\\), punishing: gray raven"
   },
@@ -55741,10 +55413,6 @@ var _characterList =
     "prompt": "kel \\(omori\\), omori, 1boy, dark-skinned male, brown eyes, white pupils, short hair, brown hair, collarbone"
   },
   {
-    "file": "fe46d587fd.webp",
-    "prompt": "drifloon, pokemon, no humans, black eyes, pokemon (creature)"
-  },
-  {
     "file": "fe4813d1e6.webp",
     "prompt": "cu chulainn \\(fate\\), fate \\(series\\), 1boy, red eyes, long hair, blue hair, spiked hair, ponytail, earrings, spear"
   },
@@ -56089,10 +55757,6 @@ var _characterList =
     "prompt": "assassin \\(fate/zero\\), fate \\(series\\), 1girl, dark-skinned female, grey skin, very dark skin, purple eyes, purple hair, very long hair, long hair, ponytail, medium breasts, hoop earrings, abs, muscular female"
   },
   {
-    "file": "ffa5e89d00.webp",
-    "prompt": "mienshao, pokemon, no humans, 1girl, furry female, animal ears, tail, red eyes, pokemon (creature), two-tone fur, claws, body fur, purple fur, whiskers, snout"
-  },
-  {
     "file": "ffa6dc7644.webp",
     "prompt": "yoshino sakura, da capo, 1girl, blue eyes, blonde hair, long hair, twintails"
   },
@@ -56343,10 +56007,6 @@ var _characterList =
   {
     "file": "0e40f8c33b.webp",
     "prompt": "mobius \\(honkai impact\\), honkai \\(series\\), 1girl, green eyes, hair between eyes, slit pupils, green hair, long hair, wavy hair, very long hair, cleavage, black gloves, black dress, sleeveless dress, elbow gloves, bare shoulders, claw ring, crown"
-  },
-  {
-    "file": "16f51a6de0.webp",
-    "prompt": "march 7th \\(preservation) (honkai: star rail\\), honkai \\(series\\), 1girl, blue eyes, two-tone eyes, pink eyes, pink pupils, pink hair, medium hair, medium breasts, white shirt, blue jacket, bra strap, black gloves, tied jacket, partially fingerless gloves, pleated skirt, blue skirt, long sleeves, black choker, buttons, single earring, underbust"
   },
   {
     "file": "bad2dc2386.webp",
@@ -56691,5 +56351,293 @@ var _characterList =
   {
     "file": "292c12d45c.webp",
     "prompt": "yui \\(sao-alo\\), sword art online, 1girl, pointy ears, black eyes, brown eyes, black hair, very long hair, long hair, hair flower, barefoot, dress, detached sleeves, bare shoulders, fairy wings, transparent wings, white wings, fairy (sao), fairy, minigirl, mini person"
+  },
+  {
+    "file": "58667a50a1.webp",
+    "prompt": "001 \\(darling in the franxx\\), darling in the franxx, 1girl, blue skin, single horn, blue horns, tail, blue eyes, very long hair, white hair, blunt bangs, small breasts, navel, black tattoo"
+  },
+  {
+    "file": "0105d42dd4.webp",
+    "prompt": "chloe von einzbern, fate \\(series\\), 1girl, dark-skinned female, loli, orange eyes, hair between eyes, yellow eyes, long hair, pink hair, small breasts, thighs, navel, stomach tattoo, one side up, red cloak"
+  },
+  {
+    "file": "f6e7b71989.webp",
+    "prompt": "nitocris \\(fate\\), fate \\(series\\), 1girl, dark-skinned female, jackal ears, purple eyes, purple hair, very long hair, sidelocks, hairband, medium breasts, large breasts, navel, hoop earrings, facial mark, facepaint"
+  },
+  {
+    "file": "b07b42109b.webp",
+    "prompt": "southern ocean war princess, kantai collection, 1girl, pale skin, white skin, red eyes, glowing eyes, hair over one eye, white hair, very long hair, long hair, twintails, medium breasts, large breasts, navel, turret"
+  },
+  {
+    "file": "cf7b6b52d0.webp",
+    "prompt": "kukui \\(pokemon\\), pokemon, 1boy, dark-skinned male, black hair, short hair, single hair bun, nipples, navel, baseball cap, sunglasses, lab coat, white headwear, topless male, abs, muscular male, bara, goatee, large pectorals"
+  },
+  {
+    "file": "187d223f0b.webp",
+    "prompt": "peony \\(pokemon\\), pokemon, 1boy, dark-skinned male, mature male, beard, green eyes, short hair, black hair, thick thighs, expedition uniform, black headwear, orange jacket, helmet, fur-trimmed jacket, bara"
+  },
+  {
+    "file": "e3d603a702.webp",
+    "prompt": "moonlight flower, ragnarok online, 1girl, fox girl, fox ears, fox tail, yellow tail, red eyes, blonde hair, short hair, small breasts, animal feet, navel, fox hat, animal hands, bell"
+  },
+  {
+    "file": "83635d0cc6.webp",
+    "prompt": "baphomet \\(monster girl encyclopedia\\), monster girl encyclopedia, 1girl, monster girl, demon girl, tail, animal ears, goat ears, goat horns, horns, very long hair, long hair, brown hair, small breasts, flat chest, navel, hooves, animal hands, claws"
+  },
+  {
+    "file": "04d10eb5c9.webp",
+    "prompt": "hellhound \\(monster girl encyclopedia\\), monster girl encyclopedia, 1girl, monster girl, black skin, grey skin, dog ears, dog tail, animal ear fluff, wolf ears, red eyes, flaming eyes, hair between eyes, slit pupils, black hair, long hair, large breasts, navel, black sclera, animal hands, claws, black fur, fur"
+  },
+  {
+    "file": "710cf50f1d.webp",
+    "prompt": "lich \\(monster girl encyclopedia\\), monster girl encyclopedia, 1girl, pale skin, grey skin, purple eyes, hair between eyes, grey hair, short hair, long hair, white hair, medium breasts, large breasts, navel, tattoo, cloak"
+  },
+  {
+    "file": "93e7e4168e.webp",
+    "prompt": "lewisia aquablue, bombergirl, 1girl, demon tail, pointy ears, fangs, hair between eyes, yellow eyes, brown eyes, heart-shaped pupils, blue hair, long hair, very long hair, twintails, small breasts, navel, pubic tattoo, heart tattoo, sweat, bare shoulders, blue nails, twin drills, crown"
+  },
+  {
+    "file": "f9cbc9bdeb.webp",
+    "prompt": "malenia goddess of rot, elden ring, 1girl, floating hair, red hair, very long hair, breasts, prosthetic leg, navel, scar, completely nude, armor, wings, prosthetic arm, amputee, butterfly, single mechanical arm"
+  },
+  {
+    "file": "099d32e408.webp",
+    "prompt": "grim aloe, quiz magic academy the world evolve, 1girl, demon horns, demon girl, demon wings, demon tail, red horns, red tail, fang, red eyes, hair between eyes, white hair, very long hair, long hair, twintails, sidelocks, small breasts, navel, black thighhighs, red wings, low wings"
+  },
+  {
+    "file": "9f0b3f609f.webp",
+    "prompt": "stella vermillion, rakudai kishi no cavalry, 1girl, red eyes, hair between eyes, long hair, red hair, two side up, twintails, hair ribbon, large breasts, navel, black thighhighs"
+  },
+  {
+    "file": "2654986c85.webp",
+    "prompt": "hachiroku \\(maitetsu\\), maitetsu, 1girl, loli, red eyes, black hair, very long hair, hair rings, flat chest, open jacket, peaked cap, half updo"
+  },
+  {
+    "file": "191661c605.webp",
+    "prompt": "elly \\(tonari no kyuuketsuki-san\\), tonari no kyuuketsuki-san, 1girl, fang, purple eyes, blonde hair, short hair, hair bow, small breasts, collarbone, purple bow, black choker"
+  },
+  {
+    "file": "eacf302af9.webp",
+    "prompt": "kaneshiro matoi, original, 1boy, shiny skin, pointy ears, hair between eyes, blue eyes, eyelashes, pink hair, very long hair, twintails, sidelocks, two side up, hair bow, hairclip, red bow, long sleeves"
+  },
+  {
+    "file": "035077c868.webp",
+    "prompt": "kuon \\(hasumi (hasubatake39)\\), original, 1girl, cat girl, cat ears, animal ear fluff, cat tail, fang, red eyes, pink eyes, hair over one eye, short hair, grey hair, white hair, cat hair ornament, large breasts, medium breasts, white shirt, long sleeves, black collar, off shoulder, nail polish, neck bell, jingle bell"
+  },
+  {
+    "file": "15402688c4.webp",
+    "prompt": "felyne, monster hunter \\(series\\), no humans, cat"
+  },
+  {
+    "file": "ae1747f78c.webp",
+    "prompt": "ping hai \\(summer vacation) (azur lane\\), azur lane, 1girl, red eyes, brown hair, very long hair, twintails, ahoge, blunt bangs, sidelocks, hair ornament, small breasts, navel, collarbone, red bikini, visor cap, yellow jacket, side-tie bikini bottom, fur-trimmed jacket, bare shoulders, off shoulder, halterneck, long sleeves, black choker, swim ring, panda, innertube"
+  },
+  {
+    "file": "6da6f6cdc5.webp",
+    "prompt": "luvdisc, pokemon, no humans"
+  },
+  {
+    "file": "ba328e2fde.webp",
+    "prompt": "wishiwashi, pokemon, no humans"
+  },
+  {
+    "file": "cac2817421.webp",
+    "prompt": "magnemite, pokemon, no humans"
+  },
+  {
+    "file": "0b25c2cc09.webp",
+    "prompt": "togekiss, pokemon, no humans"
+  },
+  {
+    "file": "75f401ba7a.webp",
+    "prompt": "crobat, pokemon, no humans"
+  },
+  {
+    "file": "14b131548c.webp",
+    "prompt": "hypno, pokemon, no humans"
+  },
+  {
+    "file": "c596594a75.webp",
+    "prompt": "drifloon, pokemon, no humans"
+  },
+  {
+    "file": "ab46cb5662.webp",
+    "prompt": "oshawott, pokemon, no humans"
+  },
+  {
+    "file": "e252a2d9f4.webp",
+    "prompt": "popplio, pokemon, no humans"
+  },
+  {
+    "file": "656008c4f6.webp",
+    "prompt": "pyukumuku, pokemon, no humans"
+  },
+  {
+    "file": "55a558396f.webp",
+    "prompt": "clodsire, pokemon, no humans"
+  },
+  {
+    "file": "69dd8962c3.webp",
+    "prompt": "morpeko \\(full\\), pokemon, no humans"
+  },
+  {
+    "file": "4555210350.webp",
+    "prompt": "snom, pokemon, no humans"
+  },
+  {
+    "file": "f11dfc405e.webp",
+    "prompt": "polteageist, pokemon, no humans"
+  },
+  {
+    "file": "0909221ce9.webp",
+    "prompt": "xatu, pokemon, no humans"
+  },
+  {
+    "file": "5ba06236a2.webp",
+    "prompt": "unown, pokemon, no humans, black eyes, pokemon (creature), one-eyed"
+  },
+  {
+    "file": "49b758d9dd.webp",
+    "prompt": "azumarill, pokemon, no humans"
+  },
+  {
+    "file": "f96d0145f6.webp",
+    "prompt": "jessie \\(pokemon\\), pokemon, 1girl, blue eyes, long hair, red hair, hair slicked back, large breasts, navel, team rocket uniform, elbow gloves, black gloves, earrings"
+  },
+  {
+    "file": "532c9e6c0f.webp",
+    "prompt": "clefairy, pokemon, no humans"
+  },
+  {
+    "file": "6208e16e42.webp",
+    "prompt": "magikarp, pokemon, no humans"
+  },
+  {
+    "file": "531c7e4f87.webp",
+    "prompt": "fatalis, monster hunter \\(series\\), no humans, monster, dragon horns, dragon tail, horns, sharp teeth, dragon wings, wings, claws, western dragon, scales"
+  },
+  {
+    "file": "980a82d2be.webp",
+    "prompt": "kshatriya, gundam, no humans"
+  },
+  {
+    "file": "7bad05c421.webp",
+    "prompt": "rajang, monster hunter \\(series\\), no humans, monster, horns, tail, pointy ears, sharp teeth"
+  },
+  {
+    "file": "207cb02c71.webp",
+    "prompt": "arbok, pokemon, no humans"
+  },
+  {
+    "file": "eb152f7a5e.webp",
+    "prompt": "mienshao, pokemon, no humans"
+  },
+  {
+    "file": "2acc095065.webp",
+    "prompt": "xenomorph, alien \\(series\\), no humans"
+  },
+  {
+    "file": "2f81863e24.webp",
+    "prompt": "nergigante, monster hunter \\(series\\), no humans, monster, sharp teeth, dragon horns, dragon tail, spiked tail, yellow eyes, slit pupils, long hair, spiked wings, dragon wings, wings, claws, scales, spikes"
+  },
+  {
+    "file": "08a4a1f50f.webp",
+    "prompt": "deviljho, monster hunter \\(series\\), no humans, monster, sharp teeth, tail, red eyes, green hair, navel, claws, dinosaur, spikes"
+  },
+  {
+    "file": "313535bca2.webp",
+    "prompt": "nargacuga, monster hunter \\(series\\), no humans, monster, tail, red eyes, yellow eyes, glowing eyes, black hair, claws"
+  },
+  {
+    "file": "2d217e7247.webp",
+    "prompt": "rathalos, monster hunter \\(series\\), no humans, monster, sharp teeth, blue eyes, wings, wyvern, claws, dragon"
+  },
+  {
+    "file": "b563cc3c50.webp",
+    "prompt": "luxray, pokemon, no humans, furry female, animal ears, tail, yellow eyes, black hair, short hair, pokemon (creature), red sclera, black fur, blue fur"
+  },
+  {
+    "file": "6cb9e142ac.webp",
+    "prompt": "audino, pokemon, no humans, furry female, animal ears, blue eyes, pokemon (creature), two-tone fur, body fur, pink fur, yellow fur"
+  },
+  {
+    "file": "5a7dbb3ace.webp",
+    "prompt": "grookey, pokemon, no humans, black eyes, pokemon (creature), monkey"
+  },
+  {
+    "file": "ab018a554c.webp",
+    "prompt": "tapu lele, pokemon, no humans, black skin, blue eyes, pink eyes, multicolored eyes, green eyes, pink hair, long hair, hat, pokemon (creature)"
+  },
+  {
+    "file": "7bb8947efd.webp",
+    "prompt": "beedrill, pokemon, no humans, red eyes, pokemon (creature), antennae, bee"
+  },
+  {
+    "file": "7cccda8255.webp",
+    "prompt": "ralts, pokemon, no humans, white skin, red eyes, hair over eyes, green hair, short hair, blunt bangs, pokemon (creature), bowl cut"
+  },
+  {
+    "file": "21aaa1e149.webp",
+    "prompt": "spiritomb, pokemon, no humans, green eyes, pokemon (creature)"
+  },
+  {
+    "file": "1c36ecd61a.webp",
+    "prompt": "gridman \\(ssss\\), gridman universe, no humans, armor, mecha"
+  },
+  {
+    "file": "0a1dd079df.webp",
+    "prompt": "light dragon \\(zelda\\), the legend of zelda, no humans, dragon horns, dragon"
+  },
+  {
+    "file": "bf50155f31.webp",
+    "prompt": "penpen, neon genesis evangelion, no humans"
+  },
+  {
+    "file": "a1aed01795.webp",
+    "prompt": "nekomata okayu, hololive, 1girl, cat girl, cat ears, animal ear fluff, cat tail, purple eyes, hair between eyes, purple hair, short hair, medium hair, ahoge, large breasts, cleavage, long sleeves, virtual youtuber"
+  },
+  {
+    "file": "9c5972b292.webp",
+    "prompt": "joseph joestar, jojo no kimyou na bouken, 1boy, blue eyes, green eyes, brown hair, fingerless gloves, crop top, midriff, mature male"
+  },
+  {
+    "file": "682c3d28fa.webp",
+    "prompt": "joseph joestar \\(young\\), jojo no kimyou na bouken, 1boy, blue eyes, green eyes, brown hair, black hair, fingerless gloves, striped clothes, striped scarf, crop top, midriff, mature male"
+  },
+  {
+    "file": "d8cea53cb8.webp",
+    "prompt": "kujo jotaro, jojo no kimyou na bouken, 1boy, green eyes, blue eyes, black hair, hat, long coat, gakuran, chain, mature male"
+  },
+  {
+    "file": "051ec7cd8e.webp",
+    "prompt": "kirito, sword art online, 1boy, black eyes, hair between eyes, black hair, sword"
+  },
+  {
+    "file": "a44f6bc98e.webp",
+    "prompt": "pardofelis \\(honkai impact\\), honkai \\(series\\), 1girl, cat girl, heterochromia, cat ears, cat tail, animal ear fluff, blue eyes, green eyes, hair between eyes, brown hair, medium hair, braid, medium breasts, black bikini, black gloves, bare shoulders, headband"
+  },
+  {
+    "file": "5a0875da9d.webp",
+    "prompt": "homu \\(honkai impact\\), honkai \\(series\\), no humans"
+  },
+  {
+    "file": "94c907ddca.webp",
+    "prompt": "jingwei \\(bird\\), honkai \\(series\\), no humans"
+  },
+  {
+    "file": "62af824a4a.webp",
+    "prompt": "pom-pom \\(honkai: star rail\\), honkai \\(series\\), no humans"
+  },
+  {
+    "file": "da3d353855.webp",
+    "prompt": "yunli \\(honkai: star rail\\), honkai \\(series\\), 1girl, hair between eyes, yellow eyes, orange eyes, long hair, grey hair, low twintails, hairclip, chinese clothes, detached sleeves, bare shoulders, short sleeves, detached collar, headpiece, stomach"
+  },
+  {
+    "file": "86b3b8c7d6.webp",
+    "prompt": "edogawa conan, meitantei conan, 1boy, blue eyes, hair between eyes, glasses, brown hair, short hair, white shirt, long sleeves, red bowtie, child"
+  },
+  {
+    "file": "b5b8526286.webp",
+    "prompt": "sam \\(honkai: star rail\\), honkai: star rail, no humans, armor"
   }
 ]
