@@ -2,7 +2,7 @@
 
 Drawing Spells 是一個二次元角色的提示詞查詢工具，這些提示詞可用於 AI 繪圖。
 
- Illustrious 與 NoobAI-XL 都是非常強大的 AI 繪圖模型，即時在沒有使用 LoRA 的情況下，只要提示詞含有正確的 角色名稱 與 服飾描述，就能準確生成數千名二次元角色。
+ Illustrious 與 NoobAI-XL 都是非常強大的 AI 繪圖模型，即使在沒有使用 LoRA 的情況下，只要提示詞含有正確的 角色名稱 與 服飾描述，就能準確生成數千名二次元角色。
 
 ![](imgs/demo.jpg)
 
