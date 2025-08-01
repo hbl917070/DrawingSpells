@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 class app {
     constructor() {
-
+        const imgZoom = mediumZoom("[data-zoomable]")
         const pageManager = new PageManager();
         const i18n = new I18n();
         i18n.setData(_lang);
@@ -300,7 +300,8 @@ class app {
                     const domPageButton = document.querySelector(".js-page-btns");
                     domPageButton.scrollIntoView({ /*behavior: "smooth"*/ });
 
-                    mediumZoom('[data-zoomable]')
+                    // 重新給每張圖片綁定 mediumZoom
+                    imgZoom.attach(document.querySelectorAll("[data-zoomable]"));
                 },
                 // 更新網址事件
                 () => {
