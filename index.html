@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-TW">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -28,13 +28,13 @@
 
     <!-- 分享網頁時使用的資料 -->
     <meta property="og:title" content="Drawing Spells">
-    <meta property="og:description" content="Drawing Spells 是一個二次元角色的提示詞查詢工具，這些提示詞可於 AI 繪圖模型使用。">
+    <meta property="og:description" content="Drawing Spells is a prompt query tool for anime/game characters. The prompts can be used with AI image generation models.">
     <meta property="og:image" content="./imgs/icon-192.png">
     <meta property="og:url" content="https://hbl917070.github.io/DrawingSpells/">
 
     <!-- 網頁描述 -->
-    <meta name="Description" content="Drawing Spells 是一個二次元角色的提示詞查詢工具，這些提示詞可於 AI 繪圖模型使用。">
-    <meta name="KeyWords" content="Drawing Spells, 提示詞, 二次元, AI, Prompt">
+    <meta name="Description" content="Drawing Spells is a prompt query tool for anime/game characters. The prompts can be used with AI image generation models.">
+    <meta name="KeyWords" content="Drawing Spells, anime/game characters, AI, Prompt">
 
     <meta name="author" content="hbl917070(深海異音)">
     <meta name="copyright" content="hbl917070(深海異音)">
@@ -69,14 +69,14 @@
                 <img src="./imgs/x.svg">
             </div>
             <span i18n="docContent">
-                Drawing Spells 是一個二次元角色的提示詞查詢工具，這些提示詞可於 AI 繪圖模型使用，<br>
-                <a href="https://civitai.com/models/833294" target="_blank">NoobAI-XL</a> 或
+                Drawing Spells is a prompt query tool for anime/game characters. The prompts can be used with AI image generation models.<br>
+                Models from the <a href="https://civitai.com/models/833294" target="_blank">NoobAI-XL</a> or
                 <a href="https://civitai.com/models/795765" target="_blank">Illustrious</a>
-                系列的模型，都非常適合用來生成二次元角色。
+                series are both highly suitable for generating anime/game characters.
                 <div style="height: 10px;"></div>
 
-                ※ 本站的資料來自 NoobAI-XL 訓練時使用的<a href="https://huggingface.co/datasets/NebulaeWis/e621-2024-webp-4Mpixel" target="_blank">數據集</a>，
-                通常 AI 模型難以正確生成過於冷門的角色，因此這裡只列出圖片數量大於30張的角色。
+                ※ The data on this site comes from the <a href="https://huggingface.co/datasets/NebulaeWis/e621-2024-webp-4Mpixel" target="_blank">dataset</a> used for training NoobAI-XL.<br>
+                AI models often struggle to generate obscure characters accurately, so only characters with more than 30 images are listed here.
             </span>
         </div>
     </div>
@@ -85,9 +85,11 @@
     <div class="search-box">
         <div class="search-container">
             <div class="search-top">
+
+                <!-- 包含 -->
                 <div class="search-item">
                     <div class="title">
-                        <span i18n="include">包含</span>
+                        <span i18n="include"> Include </span>
                         <div class="tooltip">
                             <div class="tooltip-icon"></div>
                             <div class="tooltip-content" i18n="tooltipInclude"></div>
@@ -98,9 +100,10 @@
 
                 <div style="width:10px;"></div>
 
+                <!-- 不包含 -->
                 <div class="search-item">
                     <div class="title">
-                        <span i18n="exclude">不包含</span>
+                        <span i18n="exclude"> Exclude </span>
                         <div class="tooltip">
                             <div class="tooltip-icon"></div>
                             <div class="tooltip-content" i18n="tooltipExclude"></div>
@@ -111,8 +114,9 @@
 
                 <div style="width:10px;"></div>
 
+                <!-- 查詢按鈕 -->
                 <div class="search-item search-item__right">
-                    <button class="search-filter js-filter" i18n="search">查詢</button>
+                    <button class="search-filter js-filter" i18n="search"> Search </button>
                 </div>
             </div>
 
@@ -121,29 +125,36 @@
 
                 <div class="hr"></div>
 
+                <!-- 排序 -->
                 <div class="search-item">
-                    <div class="title" i18n="sort">排序</div>
+                    <div class="title" i18n="sort"> Sort </div>
                     <select class="text js-sort">
-                        <option value="default" i18n="default">預設</option>
-                        <option value="count" i18n="imageCount">圖片數量</option>
-                        <option value="random" i18n="random">隨機</option>
+                        <option value="default" i18n="default"> Default </option>
+                        <option value="count" i18n="imageCount"> Image Count </option>
+                        <option value="random" i18n="random"> Random </option>
                     </select>
                 </div>
+
+                <!-- 排除圖片數量過少的角色 -->
                 <div class="search-item">
-                    <div class="title" i18n="excludeCount">排除圖片數量過少的角色</div>
+                    <div class="title" i18n="excludeCount"> Exclude characters with too few images </div>
                     <input class="text js-excludeCount" type="number">
                 </div>
+
+                <!-- 每頁圖片數量 -->
                 <div class="search-item">
-                    <div class="title" i18n="pageSize">每頁圖片數量</div>
+                    <div class="title" i18n="pageSize"> Images Per Page </div>
                     <select class="text js-pageSize">
                         <option value="30">30</option>
                         <option value="50">50</option>
                         <option value="100">100</option>
                     </select>
                 </div>
+
+                <!-- 複製時忽略提示詞 -->
                 <div class="search-item">
                     <div class="title">
-                        <span i18n="ignorePrompts">複製時忽略提示詞</span>
+                        <span i18n="ignorePrompts"> Ignore Prompts When Copying </span>
                         <div class="tooltip">
                             <div class="tooltip-icon"></div>
                             <div class="tooltip-content" i18n="tooltipIgnorePrompts"></div>
@@ -155,8 +166,9 @@
 
         </div>
 
+        <!-- 進階設定 -->
         <div class="more-options js-moreOptions" i18n="moreOptions">
-            進階設定
+            More Options
         </div>
     </div>
 
@@ -174,9 +186,11 @@
     <div class="page-btns js-page-btns"></div>
 
     <div class="footer" i18n="footer">
-        本專案所展示之AI生成圖片及角色名稱，其著作權皆屬於各原創作者及公司所有<br>
-        本專案僅供技術展示及學術研究使用，無任何商業用途<br>
-        若有權利人認為本專案之內容有侵權疑慮，請聯絡我們，我們將儘速下架相關資料
+        All AI-generated images and character names displayed in this project remain the copyright of their original creators and companies.
+        <br>
+        This project is for technical demonstration and academic research purposes only, with no commercial use.
+        <br>
+        If any copyright holders believe that any content in this project may infringe their rights, please contact us and we will promptly remove the relevant materials.
     </div>
 
 </body>

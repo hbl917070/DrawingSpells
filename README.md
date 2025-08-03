@@ -1,37 +1,41 @@
-# DrawingSpells
+English | [中文](README.zh_TW.md)
 
-Drawing Spells 是一個二次元角色的提示詞查詢工具，這些提示詞可用於 AI 繪圖。
+<h1 align="center">
+Drawing Spells
+</h1>
 
- Illustrious 與 NoobAI-XL 都是非常強大的 AI 繪圖模型，即使在沒有使用 LoRA 的情況下，只要提示詞含有正確的 角色名稱 與 服飾描述，就能準確生成數千名二次元角色。
+Drawing Spells is a prompt query tool for anime/game characters, designed for use with AI image generation.
+
+Both Illustrious and NoobAI-XL are highly advanced AI drawing models. Even without using LoRA, as long as the prompts contain the correct character names and clothing descriptions, thousands of anime/game characters can be accurately generated.
 
 ![](imgs/demo.jpg)
 
-## 專案使用方式
+## How to Use
 
-本專案不依賴伺服器，下載專案後就能直接用瀏覽器開啟 `index.html` 
+This project does not require a server. After downloading the project, simply open `index.html` in your browser.
 
-或是直接在線使用：https://hbl917070.github.io/DrawingSpells
+Or use it online directly: https://hbl917070.github.io/DrawingSpells
 
-## 使用技巧
+## Tips
 
-- 某些人可能特別偏好特定屬性，例如：不論角色原本什麼髮型，都一定要將角色改成長髮，<br>
-有這需求的話，可以在進階設定裡面使用 `複製時忽略提示詞` 的功能，<br>
-將 `short hair, *ponytail, twintails, horse tail,` 之類有關髮型的提示詞加入，<br>
-這樣就可以迅速的只複製自己想要的提示詞。
+- Some users may prefer specific attributes. For example, regardless of the character's original hairstyle, you may always want to change the character to have long hair.<br>
+If you have this need, you can use the "Ignore Prompts When Copying" feature in Advanced Settings.<br>
+Add prompts related to hairstyles such as `short hair, *ponytail, twintails, horse tail,` etc.<br>
+This allows you to quickly copy only the prompts you want.
 
-- 所有設定都會記錄在網址裡面，所以只要用網址就可以分享查詢結果，像 [這樣](https://hbl917070.github.io/DrawingSpells/?page=1&include=1girl%0Ahonkai%3A+star+rail&exclude=&sort=default&pageSize=50&excludeCount=1&ignorePrompts=1girl%2C)
+- All settings are recorded in the URL, so you can share your search results just by sharing the link, like [this](https://hbl917070.github.io/DrawingSpells/?page=1&include=1girl%0Ahonkai%3A+star+rail&exclude=&sort=default&pageSize=50&excludeCount=1&ignorePrompts=1girl%2C).
 
-- 預設的排序是依照作品，喜歡玩抽卡的人可以將排序方式設定為`隨機`
+- The default sorting is by series/work. If you enjoy gacha draws, you can set the sorting method to `random`.
 
-## 相關資源
-- 角色提示詞來源 [e621-2024-webp-4Mpixel](https://huggingface.co/datasets/NebulaeWis/e621-2024-webp-4Mpixel)
-- 角色預覽圖使用的模型 [NAI-XL vpred1.0 2d accelerated](https://civitai.com/models/1201815?modelVersionId=1870504)
+## Related Resources
+- Character prompt source: [e621-2024-webp-4Mpixel](https://huggingface.co/datasets/NebulaeWis/e621-2024-webp-4Mpixel)
+- Preview model used: [NAI-XL vpred1.0 2d accelerated](https://civitai.com/models/1201815?modelVersionId=1870504)
 
-## 版權說明
+## Copyright Notice
 
-專案內的程式碼為 MIT 授權許可，詳情請參閱 [LICENSE](LICENSE)
+The code in this project is licensed under MIT, please see [LICENSE](LICENSE) for details.
 <br><br>
-本專案所展示之AI生成圖片及角色名稱，其著作權皆屬於各原創作者及公司所有<br>
-本專案僅供技術展示及學術研究使用，無任何商業用途
+All AI-generated images and character names displayed in this project remain the copyright of their original creators and companies.<br>
+This project is for technical demonstration and academic research purposes only, with no commercial use.
 <br>
-若有權利人認為本專案之內容有侵權疑慮，請聯絡我們，我們將儘速下架相關資料
+If any copyright holders believe that any content in this project may infringe their rights, please contact us and we will promptly remove the relevant materials.

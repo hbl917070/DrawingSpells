@@ -12,14 +12,14 @@ var _lang = {
             通常 AI 模型難以正確生成過於冷門的角色，因此這裡只列出圖片數量大於30張的角色。        
         `,
         "en": `
-            Drawing Spells is a tool for querying prompts of anime characters, which can be used in AI drawing models like <br>
-            <a href="https://civitai.com/models/833294" target="_blank">NoobAI-XL</a> or
-            <a href="https://civitai.com/models/795765" target="_blank">Illustrious</a>.
-            These models are very suitable for generating anime characters.
+            Drawing Spells is a prompt query tool for anime/game characters. The prompts can be used with AI image generation models.<br>
+            Models from the <a href="https://civitai.com/models/833294" target="_blank">NoobAI-XL</a> or
+            <a href="https://civitai.com/models/795765" target="_blank">Illustrious</a>
+            series are both highly suitable for generating anime/game characters.
             <div style="height: 10px;"></div>
 
-            ※ The data on this site comes from the <a href="https://huggingface.co/datasets/NebulaeWis/e621-2024-webp-4Mpixel" target="_blank">dataset</a> used during the training of NoobAI-XL.
-            Therefore, characters with fewer than 30 images are not listed, as AI models often struggle to generate less popular characters correctly.
+            ※ The data on this site comes from the <a href="https://huggingface.co/datasets/NebulaeWis/e621-2024-webp-4Mpixel" target="_blank">dataset</a> used for training NoobAI-XL.<br>
+            AI models often struggle to generate obscure characters accurately, so only characters with more than 30 images are listed here.
         `,
     },
 
@@ -200,9 +200,11 @@ var _lang = {
             若有權利人認為本專案之內容有侵權疑慮，請聯絡我們，我們將儘速下架相關資料
         `,
         "en": `
-            The AI-generated images and character names displayed in this project are owned by their respective original creators and companies.<br>
-            This project is intended for technical demonstration and academic research purposes only, with no commercial use.<br>
-            If any rights holder believes that the content of this project infringes their rights, please contact us, and we will promptly remove the relevant materials.
+            All AI-generated images and character names displayed in this project remain the copyright of their original creators and companies.
+            <br>
+            This project is for technical demonstration and academic research purposes only, with no commercial use.
+            <br>
+            If any copyright holders believe that any content in this project may infringe their rights, please contact us and we will promptly remove the relevant materials.
         `,
     },
 }
