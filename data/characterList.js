@@ -10757,10 +10757,6 @@ var _characterList =
     "prompt": "moriya suwako, touhou, 1girl, yellow eyes, blonde hair, short hair, hair ribbon, hat, wide sleeves, long sleeves"
   },
   {
-    "file": "31da870079.webp",
-    "prompt": "chise \\(swimsuit) (blue archive\\), blue archive, 1girl, oni horns, oni, red horns, red eyes, hair between eyes, blue hair, very long hair, long hair, side ponytail, ponytail, hair flower, small breasts, navel, collarbone, striped bikini, striped clothes, side-tie bikini bottom, blue bikini, halo, blue halo, white sailor collar, crab"
-  },
-  {
     "file": "31dbf2b149.webp",
     "prompt": "senou natsuru, kampfer, 1girl, blue eyes, blue hair, short hair, large breasts, thighhighs"
   },
@@ -16771,14 +16767,6 @@ var _characterList =
   {
     "file": "4def33ac37.webp",
     "prompt": "lillie \\(pokemon\\), pokemon, 1girl, green eyes, eyelashes, blonde hair, long hair, twin braids, blunt bangs, ponytail"
-  },
-  {
-    "file": "4df09bb19c.webp",
-    "prompt": "hinata natsumi, keroro gunsou, 1girl, red eyes, pink hair, red hair, short hair, twintails"
-  },
-  {
-    "file": "4df59edd6e.webp",
-    "prompt": "long island \\(azur lane\\), azur lane, 1girl, blue eyes, very long hair, brown hair, black hair, long hair, headphones, white shirt, long sleeves, bare shoulders"
   },
   {
     "file": "4dfa51a81b.webp",
@@ -30055,10 +30043,6 @@ var _characterList =
   {
     "file": "8aa0c64900.webp",
     "prompt": "tenjou utena, shoujo kakumei utena, 1girl, blue eyes, pink hair, long hair, long sleeves, epaulettes, aiguillette"
-  },
-  {
-    "file": "8aa53d7eb9.webp",
-    "prompt": "rotom, pokemon, 1girl, blue eyes, short hair, black hair, pokemon (creature)"
   },
   {
     "file": "8ab639ae38.webp",
@@ -52225,10 +52209,6 @@ var _characterList =
     "prompt": "manya \\(dq4\\), dragon quest, 1girl, dark-skinned female, purple eyes, purple hair, long hair, large breasts, navel, pelvic curtain, bracelet, earrings, forehead jewel, loincloth, circlet, green gemstone"
   },
   {
-    "file": "f38ab3f18f.webp",
-    "prompt": "mini-ikamusume, shinryaku! ikamusume, 1girl, long hair, tentacle hair, blue hair, hat, dress, mini person, minigirl"
-  },
-  {
     "file": "f395679c7c.webp",
     "prompt": "maribel \\(dq7\\), dragon quest, 1girl, green eyes, blue eyes, long hair, curly hair, red hair, orange hair, breasts, dress, hood"
   },
@@ -56375,5 +56355,21 @@ var _characterList =
   {
     "file": "6d2a2ababc.webp",
     "prompt": "natsuki subaru, re:zero kara hajimeru isekai seikatsu, 1boy, short hair, black hair, track jacket, long sleeves"
+  },
+  {
+    "file": "199d7cc78b.webp",
+    "prompt": "mini-ikamusume, shinryaku! ikamusume, 1girl, long hair, tentacle hair, blue hair, hat, dress, mini person, minigirl"
+  },
+  {
+    "file": "752d7498b8.webp",
+    "prompt": "hinata natsumi, keroro gunsou, 1girl, red eyes, pink hair, red hair, short hair, twintails"
+  },
+  {
+    "file": "0b5b60ba5a.webp",
+    "prompt": "chise \\(swimsuit) (blue archive\\), blue archive, 1girl, oni horns, oni, red horns, red eyes, hair between eyes, blue hair, very long hair, long hair, side ponytail, ponytail, hair flower, small breasts, navel, collarbone, striped bikini, striped clothes, side-tie bikini bottom, blue bikini, halo, blue halo, white sailor collar"
+  },
+  {
+    "file": "21aad107c8.webp",
+    "prompt": "long island \\(azur lane\\), azur lane, 1girl, black hair, blue eyes, headphones, long hair, necktie, shoes, sleeves past wrists, socks, very long hair"
   }
 ]
