@@ -86,14 +86,26 @@
         <div class="search-container">
             <div class="search-top">
                 <div class="search-item">
-                    <div class="title" i18n="include">包含</div>
+                    <div class="title">
+                        <span i18n="include">包含</span>
+                        <div class="tooltip">
+                            <div class="tooltip-icon"></div>
+                            <div class="tooltip-content" i18n="tooltipInclude"></div>
+                        </div>
+                    </div>
                     <textarea class="text js-include" placeholder="ex. 1girl|1boy, red eyes" rows="3"></textarea>
                 </div>
 
                 <div style="width:10px;"></div>
 
                 <div class="search-item">
-                    <div class="title" i18n="exclude">不包含</div>
+                    <div class="title">
+                        <span i18n="exclude">不包含</span>
+                        <div class="tooltip">
+                            <div class="tooltip-icon"></div>
+                            <div class="tooltip-content" i18n="tooltipExclude"></div>
+                        </div>
+                    </div>
                     <textarea class="text js-exclude" placeholder="ex. no humans, short hair" rows="3"></textarea>
                 </div>
 
@@ -130,7 +142,13 @@
                     </select>
                 </div>
                 <div class="search-item">
-                    <div class="title" i18n="ignorePrompts">複製時忽略提示詞</div>
+                    <div class="title">
+                        <span i18n="ignorePrompts">複製時忽略提示詞</span>
+                        <div class="tooltip">
+                            <div class="tooltip-icon"></div>
+                            <div class="tooltip-content" i18n="tooltipIgnorePrompts"></div>
+                        </div>
+                    </div>
                     <textarea class="text text__full js-ignorePrompts" placeholder="ex. 1girl, *eyes" rows="3"></textarea>
                 </div>
             </div>
@@ -147,11 +165,9 @@
     <div class="page-btns js-page-btns"></div>
 
     <div class="imgviews js-imgviews">
-        <div class="imgview">
-            <div class="prompt">
-                Loading ...
-            </div>
-        </div>
+
+        <div class="msgbox">Loading ...</div>
+
     </div>
 
     <!-- 換頁按鈕 -->

@@ -73,6 +73,108 @@ var _lang = {
         "en": "More Options",
     },
 
+    tooltipInclude: {
+        "zh-TW": `
+            <ul>
+                <li>
+                    查詢包含特定提示詞的角色，<br>
+                    忽略大小寫和特殊符號，不需完全匹配，<br>
+                    例如輸入 <span class="code">Red</span>，
+                    那麼提示詞含有 <span class="code">red eyes</span> 或 <span class="code">red hair</span> 的角色都會被查詢出來。
+                </li>
+                <li>
+                    支援多組「and」查詢，查詢同時滿足所有條件的角色，<br>
+                    使用 <span class="code">,</span> 或換行來分割，<br>
+                    例如輸入 <span class="code">red hair, blue eyes</span> ，
+                    表示查詢 紅頭髮 且 藍色眼睛 的角色。
+                </li>
+                <li>
+                    支援多組「or」查詢，查詢滿足任一條件的角色<br>
+                    使用 <span class="code">|</span>來分割，<br>
+                    例如輸入 <span class="code">red eyes | blue eyes, short hair</span> ，<br>
+                    表示查詢 短頭髮 且 眼睛是紅色或藍色 的角色。
+                </li>
+            </ul>
+        `,
+        "en": `
+            <ul>
+                <li>
+                    Search for characters that contain specific prompt words,<br>
+                    case-insensitive and special characters will be ignored, exact match is not required.<br>
+                    For example, entering <span class="code">Red</span> will match characters with prompts like <span class="code">red eyes</span> or <span class="code">red hair</span>.
+                </li>
+                <li>
+                    Supports multiple "and" queries to find characters that match all conditions.<br>
+                    Use <span class="code">,</span> or a newline to separate them.<br>
+                    For example, entering <span class="code">red hair, blue eyes</span> will search for characters with both red hair and blue eyes.
+                </li>
+                <li>
+                    Supports multiple "or" queries to find characters that match any condition.<br>
+                    Use <span class="code">|</span> to separate them.<br>
+                    For example, entering <span class="code">red eyes | blue eyes, short hair</span><br>
+                    will search for characters with short hair and either red or blue eyes.
+                </li>
+            </ul>
+        `,
+    },
+    tooltipExclude: {
+        "zh-TW": `
+            <ul>
+                <li>
+                    查詢不包含特定提示詞的角色，<br>
+                    忽略大小寫和特殊符號，<br>
+                    例如輸入 <span class="code">NO_humans</span>，
+                    表示 提示詞含有 <span class="code">no humans</span> 的角色會被排除。
+                </li>
+                <li>
+                    支援多組，滿足任意一條件的角色都會被排除，<br>
+                    使用 <span class="code">,</span> 或換行來分割，<br>
+                    例如輸入 <span class="code">red eyes, short hair</span> ，
+                    表示 紅色眼睛 或 短頭髮 的角色都會被排除。
+                </li>
+            </ul>
+        `,
+        "en": `
+            <ul>
+                <li>
+                    Search for characters that <strong>do not</strong> contain specific prompt words.<br>
+                    Case-insensitive and special characters will be ignored.<br>
+                    For example, entering <span class="code">NO_humans</span> will exclude characters with prompts like <span class="code">no humans</span>.
+                </li>
+                <li>
+                    Supports multiple exclusion conditions; characters matching <strong>any</strong> of them will be excluded.<br>
+                    Use <span class="code">,</span> or a newline to separate them.<br>
+                    For example, entering <span class="code">red eyes, short hair</span> will exclude characters with red eyes <strong>or</strong> short hair.
+                </li>
+            </ul>
+        `,
+    },
+    tooltipIgnorePrompts: {
+        "zh-TW": `
+            <ul>
+                <li>
+                    複製角色提示詞時，忽略指定的提示詞，<br>
+                    忽略大小寫，允許使用 <span class="code">*</span> 來匹配任意字串，<br>
+                    支援多組，使用 <span class="code">,</span> 或換行來分隔，<br>
+                    例如輸入 <span class="code">1girl, *eyes</span>，
+                    而角色提示詞是 <span class="code">1girl, blue eyes, red hair</span>，
+                    那麼複製到提示詞就會是 <span class="code">red hair</span>。                     
+                </li>
+            </ul>
+        `,
+        "en": `
+            <ul>
+                <li>
+                    When copying character prompts, specified prompt words can be ignored.<br>
+                    Case-insensitive, and <span class="code">*</span> can be used to match any string.<br>
+                    Supports multiple patterns, separated by <span class="code">,</span> or newline.<br>
+                    For example, entering <span class="code">1girl, *eyes</span> and the character prompts are <span class="code">1girl, blue eyes, red hair</span>,<br>
+                    the copied result will be <span class="code">red hair</span>.
+                </li>
+            </ul>
+        `,
+    },
+
     copyName: {
         "zh-TW": "複製角色名稱",
         "en": "Copy Character Name",
@@ -84,6 +186,11 @@ var _lang = {
     copyPrompt: {
         "zh-TW": "複製提示詞",
         "en": "Copy Prompt",
+    },
+
+    noData: {
+        "zh-TW": "沒有符合條件的資料",
+        "en": "No data matching the criteria",
     },
 
     footer: {

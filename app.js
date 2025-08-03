@@ -4,10 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 class app {
     constructor() {
-        const imgZoom = mediumZoom("[data-zoomable]")
-        const pageManager = new PageManager();
-        const i18n = new I18n();
-        i18n.setData(_lang);
+
         const divImgviews = document.querySelector(".js-imgviews");
         const textInclude = document.querySelector(".js-include");
         const textExclude = document.querySelector(".js-exclude");
@@ -23,6 +20,13 @@ class app {
         const btnDocOpen = document.querySelector(".js-docOpen");
         const btnLang = document.querySelector(".js-langOpen");
         const divLangMenu = document.querySelector(".js-langMenu");
+
+        const imgZoom = mediumZoom("[data-zoomable]");
+        const pageManager = new PageManager();
+        const i18n = new I18n();
+        i18n.setData(_lang);
+        /** 是否為第一次載入 */
+        let isFirstLoad = true;
 
         // 初始化圖片的提示詞數據
         for (let i = 0; i < _characterList.length; i++) {
@@ -45,7 +49,7 @@ class app {
                 .map(part => part.replace(/[\W_]+/g, "").toLowerCase());
         }
 
-        updateImgviews();
+        // 初始化資料，從網址讀取參數
         initFromUrl();
 
         // 語言選單
@@ -122,32 +126,33 @@ class app {
 
         })();
 
-
         // 說明區塊
-        if (window.localStorage.getItem("docOpen") == "false") {
-            docShow(false);
-        } else {
-            docShow(true);
-        }
-        btnDocOpen.addEventListener("click", () => {
-            if (divDoc.style.display === "none") {
-                docShow(true);
-            } else {
+        (() => {
+            if (window.localStorage.getItem("docOpen") == "false") {
                 docShow(false);
-            }
-        });
-        btnDocClose.addEventListener("click", () => {
-            docShow(false);
-        });
-        function docShow(value) {
-            if (value) {
-                divDoc.style.display = "";
-                window.localStorage.setItem("docOpen", "true");
             } else {
-                divDoc.style.display = "none";
-                window.localStorage.setItem("docOpen", "false");
+                docShow(true);
             }
-        }
+            btnDocOpen.addEventListener("click", () => {
+                if (divDoc.style.display === "none") {
+                    docShow(true);
+                } else {
+                    docShow(false);
+                }
+            });
+            btnDocClose.addEventListener("click", () => {
+                docShow(false);
+            });
+            function docShow(value) {
+                if (value) {
+                    divDoc.style.display = "";
+                    window.localStorage.setItem("docOpen", "true");
+                } else {
+                    divDoc.style.display = "none";
+                    window.localStorage.setItem("docOpen", "false");
+                }
+            }
+        })();
 
         // 查詢按鈕
         btnFilter.addEventListener("click", () => {
@@ -169,10 +174,15 @@ class app {
          */
         function updateImgviews() {
 
-            let datas = filterAndSort();
-            //console.log("符合條件的圖片數量：", datas.length);
-
+            let excludeCount = parseInt(textExcludeCount.value);
             const pageSize = parseInt(selectPageSize.value);
+
+            if (isNaN(excludeCount) || excludeCount < 0) {
+                excludeCount = 0;
+                textExcludeCount.value = excludeCount;
+            }
+
+            const datas = filterAndSort(excludeCount);
 
             pageManager.init(datas.length, pageSize,
                 // 頁碼點擊事件
@@ -183,6 +193,13 @@ class app {
                         document.title = `Drawing Spells - ${pageManager.currentPage}`;
                     else
                         document.title = "Drawing Spells";
+
+                    // 如果沒有符合條件的資料，則顯示提示
+                    if (datas.length === 0) {
+                        divImgviews.innerHTML =
+                            `<div class="msgbox" i18n="noData">${i18n.t("noData")}</div>`;
+                        return;
+                    }
 
                     divImgviews.innerHTML = "";
 
@@ -296,9 +313,11 @@ class app {
                         divImgviews.appendChild(div);
                     }
 
-                    // 頁面捲到 .js-page-btns
-                    const domPageButton = document.querySelector(".js-page-btns");
-                    domPageButton.scrollIntoView({ /*behavior: "smooth"*/ });
+                    // 如果不是第一次載入，則捲動到頁碼按鈕區塊
+                    if (isFirstLoad === false) {
+                        const domPageButton = document.querySelector(".js-page-btns");
+                        domPageButton.scrollIntoView({ /*behavior: "smooth"*/ });
+                    }
 
                     // 重新給每張圖片綁定 mediumZoom
                     imgZoom.attach(document.querySelectorAll("[data-zoomable]"));
@@ -309,17 +328,18 @@ class app {
                     updateUrl();
                 }
             );
+
+            // 指定頁碼後，觸發渲染
+            pageManager.currentPage = 1;
         }
 
         /**
          * 過濾與排序
          * @returns {Array} 符合條件的資料 
          */
-        function filterAndSort() {
+        function filterAndSort(excludeCount) {
 
             let datas = [];
-
-            const excludeCount = parseInt(textExcludeCount.value) || 0;
 
             // 「包含」的條件
             const includes = textInclude.value
@@ -338,7 +358,6 @@ class app {
                 .split(/[,]|\n/)
                 .map(item => item.trim())
                 .filter(item => item !== "");
-
 
             // 過濾
             for (const data of _characterList) {
@@ -464,7 +483,9 @@ class app {
             history.pushState({}, "", url.toString());
         }
 
-        // 初始化時，從網址中讀取參數
+        /**
+         * 從網址讀取參數
+         */
         async function initFromUrl() {
 
             const url = new URL(window.location.href);
@@ -500,12 +521,16 @@ class app {
                 updateImgviews();
             }
 
+            // 指定頁碼後，觸發第一次的渲染
             pageManager.currentPage = page;
         }
 
+        // 網址改變時，從網址讀取參數
         window.addEventListener("popstate", (event) => {
             initFromUrl();
         });
+
+        isFirstLoad = false;
     }
 }
 
@@ -601,9 +626,6 @@ class PageManager {
         this._currentPage = 1;
         this._onPageClick = onPageClick;
         this._onUpdateUrl = onUpdateUrl || (() => { });
-
-        this.update();
-        this.triggerPageClick();
     }
 
     /**
