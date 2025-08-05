@@ -27,7 +27,18 @@ var _lang = {
         "zh-TW": "文件",
         "en": "Documentation",
     },
-
+    tagMatching: {
+        //"zh-TW": "",
+        "en": "Tag Matching",
+    },
+    substring: {
+        //"zh-TW": "",
+        "en": "Substring",
+    },
+    exact: {
+        //"zh-TW": "",
+        "en": "Exact",
+    },
     include: {
         "zh-TW": "包含",
         "en": "Include",
