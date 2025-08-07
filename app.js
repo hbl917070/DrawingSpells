@@ -11,6 +11,7 @@ class app {
         const btnFilter = document.querySelector(".js-filter");
         const btnMoreOptions = document.querySelector(".js-moreOptions");
         const divSearchBottom = document.querySelector(".js-searchBottom");
+        const selectMatching = document.querySelector(".js-matching");
         const selectSort = document.querySelector(".js-sort");
         const selectPageSize = document.querySelector(".js-pageSize");
         const textExcludeCount = document.querySelector(".js-excludeCount");
@@ -153,6 +154,13 @@ class app {
                 }
             }
         })();
+
+        document.addEventListener("keydown", (event) => {
+          if (event.ctrlKey && event.key === 'Enter') {
+            updateImgviews();
+            updateUrl();
+          }
+        });
 
         // 查詢按鈕
         btnFilter.addEventListener("click", () => {
@@ -341,6 +349,16 @@ class app {
 
             let datas = [];
 
+            const matching = selectMatching.value;
+
+            function matchFn(pattern) {
+              if (matching === "exact") {
+                return part => part === pattern;
+              } else { // matching === "substring"
+                return part => part.includes(pattern);
+              }
+            }
+
             // 「包含」的條件
             const includes = textInclude.value
                 .split(/[,]|\n/) // 用「,」或換行分割
@@ -352,6 +370,7 @@ class app {
                 // 將每個子條件清理（移除特殊符號與空格，轉小寫）
                 return subPatterns.map(subPattern => subPattern.replace(/[\W_]+/g, "").toLowerCase());
             });
+
 
             // 「不包含」的條件
             const excludes = textExclude.value
@@ -376,7 +395,7 @@ class app {
                         // 檢查是否有任一子條件符合
                         return cleanPatterns.some(cleanPattern => {
                             // 檢查 cleanPromptParts 中是否有包含 cleanPattern 的部分
-                            return data.cleanPromptParts.some(part => part.includes(cleanPattern));
+                            return data.cleanPromptParts.some(matchFn(cleanPattern));
                         });
                     });
 
@@ -394,7 +413,7 @@ class app {
                         // 清理排除條件
                         const cleanExcludePattern = excludePattern.replace(/[\W_]+/g, "").toLowerCase();
                         // 檢查 cleanPromptParts 中是否有包含 cleanExcludePattern 的部分
-                        return data.cleanPromptParts.some(part => part === cleanExcludePattern);
+                        return data.cleanPromptParts.some(matchFn(cleanExcludePattern));
                     });
 
                     if (excludeMatch) {
@@ -474,6 +493,7 @@ class app {
             url.searchParams.set("page", pageManager.currentPage);
             url.searchParams.set("include", textInclude.value.trim());
             url.searchParams.set("exclude", textExclude.value.trim());
+            url.searchParams.set("matching", selectMatching.value);
             url.searchParams.set("sort", selectSort.value);
             url.searchParams.set("pageSize", selectPageSize.value);
             url.searchParams.set("excludeCount", textExcludeCount.value);
@@ -492,6 +512,7 @@ class app {
 
             const include = url.searchParams.get("include") || "";
             const exclude = url.searchParams.get("exclude") || "";
+            const matching = url.searchParams.get("matching") || "substring";
             const sort = url.searchParams.get("sort") || "default";
             const pageSize = parseInt(url.searchParams.get("pageSize")) || 50;
             const excludeCount = parseInt(url.searchParams.get("excludeCount")) || 30;
@@ -502,6 +523,7 @@ class app {
             let reloadData = false;
             if (textInclude.value !== include ||
                 textExclude.value !== exclude ||
+                selectMatching.value !== matching ||
                 selectSort.value !== sort ||
                 selectPageSize.value !== pageSize.toString() ||
                 textExcludeCount.value !== excludeCount.toString() ||
@@ -511,6 +533,7 @@ class app {
 
             textInclude.value = include;
             textExclude.value = exclude;
+            selectMatching.value = matching;
             selectSort.value = sort;
             selectPageSize.value = pageSize;
             textExcludeCount.value = excludeCount;
