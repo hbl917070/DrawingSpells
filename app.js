@@ -155,11 +155,12 @@ class app {
             }
         })();
 
+        // 按下 Ctrl + Enter 鍵時，執行查詢
         document.addEventListener("keydown", (event) => {
-          if (event.ctrlKey && event.key === 'Enter') {
-            updateImgviews();
-            updateUrl();
-          }
+            if (event.ctrlKey && event.key === "Enter") {
+                updateImgviews();
+                updateUrl();
+            }
         });
 
         // 查詢按鈕
@@ -352,11 +353,11 @@ class app {
             const matching = selectMatching.value;
 
             function matchFn(pattern) {
-              if (matching === "exact") {
-                return part => part === pattern;
-              } else { // matching === "substring"
-                return part => part.includes(pattern);
-              }
+                if (matching === "exact") {
+                    return part => part === pattern;
+                } else { // matching === "substring"
+                    return part => part.includes(pattern);
+                }
             }
 
             // 「包含」的條件
@@ -370,7 +371,6 @@ class app {
                 // 將每個子條件清理（移除特殊符號與空格，轉小寫）
                 return subPatterns.map(subPattern => subPattern.replace(/[\W_]+/g, "").toLowerCase());
             });
-
 
             // 「不包含」的條件
             const excludes = textExclude.value

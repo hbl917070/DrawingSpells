@@ -125,8 +125,15 @@
 
                 <div class="hr"></div>
 
+                <!-- 提示詞匹配模式 -->
                 <div class="search-item">
-                    <div class="title" i18n="tagMatching"> Tag Matching </div>
+                    <div class="title" >
+                        <span i18n="tagMatching"> Tag Matching Mode </span>
+                        <div class="tooltip">
+                            <div class="tooltip-icon"></div>
+                            <div class="tooltip-content" i18n="tooltipMatching"></div>
+                        </div>
+                    </div>
                     <select class="text js-matching">
                         <option value="substring" i18n="substring"> Substring </option>
                         <option value="exact" i18n="exact"> Exact </option>

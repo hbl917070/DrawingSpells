@@ -27,18 +27,7 @@ var _lang = {
         "zh-TW": "文件",
         "en": "Documentation",
     },
-    tagMatching: {
-        //"zh-TW": "",
-        "en": "Tag Matching",
-    },
-    substring: {
-        //"zh-TW": "",
-        "en": "Substring",
-    },
-    exact: {
-        //"zh-TW": "",
-        "en": "Exact",
-    },
+
     include: {
         "zh-TW": "包含",
         "en": "Include",
@@ -51,6 +40,20 @@ var _lang = {
         "zh-TW": "查詢",
         "en": "Search",
     },
+        
+    tagMatching: {
+        "zh-TW": "提示詞匹配模式",
+        "en": "Tag Matching Mode",
+    },
+    substring: {
+        "zh-TW": "部分匹配",
+        "en": "Partial Match",
+    },
+    exact: {
+        "zh-TW": "完全匹配",
+        "en": "Exact Match",
+    },
+
     sort: {
         "zh-TW": "排序",
         "en": "Sort",
@@ -89,9 +92,9 @@ var _lang = {
             <ul>
                 <li>
                     查詢包含特定提示詞的角色，<br>
-                    忽略大小寫和特殊符號，不需完全匹配，<br>
-                    例如輸入 <span class="code">Red</span>，
-                    那麼提示詞含有 <span class="code">red eyes</span> 或 <span class="code">red hair</span> 的角色都會被查詢出來。
+                    忽略大小寫和特殊符號，<br>
+                    例如輸入 <span class="code">RED-eyes</span> 或 <span class="code">redeyes</span>，
+                    都可以查詢到提示詞含有 <span class="code">red eyes</span> 的角色。
                 </li>
                 <li>
                     支援多組「and」查詢，查詢同時滿足所有條件的角色，<br>
@@ -110,9 +113,10 @@ var _lang = {
         "en": `
             <ul>
                 <li>
-                    Search for characters that contain specific prompt words,<br>
-                    case-insensitive and special characters will be ignored, exact match is not required.<br>
-                    For example, entering <span class="code">Red</span> will match characters with prompts like <span class="code">red eyes</span> or <span class="code">red hair</span>.
+                    Search for characters containing specific tags,<br>
+                    ignoring case and special characters.<br>
+                    For example, entering <span class="code">RED-eyes</span> or <span class="code">redeyes</span><br>
+                    will match characters that include the tag <span class="code">red eyes</span>.                
                 </li>
                 <li>
                     Supports multiple "and" queries to find characters that match all conditions.<br>
@@ -181,6 +185,35 @@ var _lang = {
                     Supports multiple patterns, separated by <span class="code">,</span> or newline.<br>
                     For example, entering <span class="code">1girl, *eyes</span> and the character prompts are <span class="code">1girl, blue eyes, red hair</span>,<br>
                     the copied result will be <span class="code">red hair</span>.
+                </li>
+            </ul>
+        `,
+    },
+    tooltipMatching: {
+        "zh-TW": `
+            <ul>
+                <li>
+                    部分匹配：<br>
+                    輸入 <span class="code">red</span>，
+                    可以匹配 <span class="code">red eyes</span> 或 <span class="code">red hair</span>。
+                </li>
+                <li>
+                    完全匹配：<br>
+                    輸入 <span class="code">red</span>，將查詢不到任何角色。<br>
+                    必須完整輸入 <span class="code">red eyes</span> 或 <span class="code">red hair</span>。
+                </li>
+            </ul>
+        `,
+        "en": `
+            <ul>
+                <li>
+                    Partial Match:<br>
+                    Enter <span class="code">red</span> to match tags like <span class="code">red eyes</span> or <span class="code">red hair</span>.
+                </li>
+                <li>
+                    Exact Match:<br>
+                    Entering <span class="code">red</span> will not return any results.<br>
+                    You must enter the full tag, such as <span class="code">red eyes</span> or <span class="code">red hair</span>.
                 </li>
             </ul>
         `,
