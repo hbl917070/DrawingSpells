@@ -425,10 +425,14 @@ class app {
             }
             // 圖片數量
             if (selectSort.value === "count") {
+                // 先依照圖片數量排序，再依照角色名稱排序
                 datas.sort((a, b) => {
                     const aCount = a.count || 0;
                     const bCount = b.count || 0;
-                    return bCount - aCount; // 降序
+                    if (bCount !== aCount) {
+                        return bCount - aCount; // 降序
+                    }
+                    return a.name.localeCompare(b.name);
                 });
             }
             // 預設排序
