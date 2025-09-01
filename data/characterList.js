@@ -7501,10 +7501,6 @@ var _characterList =
     "prompt": "momosuzu nene \\(old design\\), hololive, 1girl, fang, green eyes, hair between eyes, blonde hair, long hair, gradient hair, pink hair, double bun, two side up, hair flower, bun cover, medium breasts, large breasts, chinese clothes, detached sleeves, juliet sleeves, virtual youtuber, jingle bell"
   },
   {
-    "file": "27a445d296.webp",
-    "prompt": "charlotte \\(madoka magica\\), mahou shoujo madoka magica, 1girl, yellow eyes, blonde hair, pink hair, twintails, twin drills, magical girl"
-  },
-  {
     "file": "27a796552b.webp",
     "prompt": "blanc neige, shining \\(series\\), 1girl, red eyes, white hair, straight hair, medium hair, long hair, blue hairband, medium breasts, thighs, navel, blue cape, shoulder pads, albino, blue gemstone, armlet"
   },
@@ -10109,10 +10105,6 @@ var _characterList =
     "prompt": "le fantasque \\(warship girls r\\), warship girls r, 1girl, yellow eyes, orange eyes, white hair, very long hair, long hair, leotard, white thighhighs, headgear, wrist cuffs"
   },
   {
-    "file": "35ebd7c941.webp",
-    "prompt": "toriyama akira \\(character\\), dragon ball, 1boy, halo, dougi, muscular male"
-  },
-  {
     "file": "35f9a03b85.webp",
     "prompt": "artorias the abysswalker, dark souls \\(series\\), 1boy, full armor, helmet, knight, gauntlets, plume, pauldrons"
   },
@@ -11067,10 +11059,6 @@ var _characterList =
   {
     "file": "3b07d71130.webp",
     "prompt": "scheherazade \\(brown dust\\), brown dust 2, 1girl, brown eyes, hair between eyes, yellow eyes, black hair, short hair, medium hair, long hair, brown hair, large breasts, medium breasts, cleavage"
-  },
-  {
-    "file": "3b0d621fc3.webp",
-    "prompt": "churuya, suzumiya haruhi no yuuutsu, 1girl, green hair, long hair, kita high school uniform, serafuku, winter uniform, blue sailor collar"
   },
   {
     "file": "3b10893f58.webp",
@@ -44725,10 +44713,6 @@ var _characterList =
     "prompt": "jegan, gundam, no humans, mobile suit, mecha"
   },
   {
-    "file": "ec7b1eeae7.webp",
-    "prompt": "ainz ooal gown, overlord \\(maruyama\\), 1girl, demon girl, demon horns, yellow eyes, red eyes, hair between eyes, black hair, long hair, large breasts, black wings, skeleton"
-  },
-  {
     "file": "ec7bec1455.webp",
     "prompt": "amasawa yuuko, dennou coil, 1girl, glasses, brown hair, black hair, short hair, twintails"
   },
@@ -56355,5 +56339,13 @@ var _characterList =
   {
     "file": "b418812b21.webp",
     "prompt": "rozaliya olenyeva, honkai \\(series\\), 1girl, single horn, tail, fang, blue eyes, hair between eyes, thick eyebrows, pink hair, long hair, very long hair, hair ornament, small breasts, black gloves, bare shoulders"
+  },
+  {
+    "file": "fa0e082456.webp",
+    "prompt": "charlotte \\(madoka magica\\), mahou shoujo madoka magica, no humans"
+  },
+  {
+    "file": "03e5bdb783.webp",
+    "prompt": "ainz ooal gown, overlord \\(maruyama\\), no humans, demon horns, skeleton"
   }
 ]
